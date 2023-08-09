@@ -40,7 +40,7 @@ $(document).ready(function(){
             var nextformId = storedform[1];
             var nextform = document.getElementById(nextformId);
             window.alert(nextform);
-            nextform.style.left="0px";
+            Form1.style.left="0px";
             progress.style.width= "146.66px";
         };
 
@@ -48,7 +48,10 @@ $(document).ready(function(){
 
         Next1.onclick =function(){
             Form1.style.left = "-1500px";
-            Form2.style.left = "0px";
+            var currentFormIndex=storedform.indexOf("Form1")
+            var nextformId = storedform[currentFormIndex];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
             progress.style.width= "146.66px";
             localStorage.setItem('Bel_elicit_30_1',$("input[type=radio][name=Bel_elicit_30_1]:checked").val()); 
         };
