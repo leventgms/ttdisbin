@@ -37,10 +37,10 @@ $(document).ready(function(){
 
         welcome.onclick=function(){
             Instructions.style.left = "-1500px";
-            var selector =  storedform[1];
-            var nextform = document.querySelector(selector);
+            var nextformId = storedform[1];
+            var nextform = document.getElementById(nextformId);
             window.alert(nextform);
-            storedform[1].style.left="0px";
+            nextform.style.left="0px";
             progress.style.width= "146.66px";
         };
 
