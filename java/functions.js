@@ -39,7 +39,7 @@ $(document).ready(function(){
 
         welcome.onclick=function(){
             Instructions.style.left = "-1500px";
-            var nextformId = storedform[1];
+            var nextformId = storedform[0];
             var nextform = document.getElementById(nextformId);
             nextform.style.left="0px";
             progress.style.width= "73.3px";
@@ -50,7 +50,7 @@ $(document).ready(function(){
         Next1.onclick =function(){
             Form1.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form1")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -65,7 +65,7 @@ $(document).ready(function(){
         Next2.onclick =function(){
             Form2.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form2")
-             if (currentFormIndex==15){
+             if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -81,7 +81,7 @@ $(document).ready(function(){
         Next3.onclick =function(){
             Form3.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form3")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -97,7 +97,7 @@ $(document).ready(function(){
         Next4.onclick =function(){
             Form4.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form4")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -112,7 +112,7 @@ $(document).ready(function(){
         Next5.onclick =function(){
             Form5.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form5")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -127,7 +127,7 @@ $(document).ready(function(){
         Next6.onclick =function(){
             Form6.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form6")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -142,7 +142,7 @@ $(document).ready(function(){
         Next7.onclick =function(){
             Form7.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form7")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -157,7 +157,7 @@ $(document).ready(function(){
         Next8.onclick =function(){
             Form8.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form8")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -173,7 +173,7 @@ $(document).ready(function(){
         Next9.onclick =function(){
             Form9.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form9")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -189,7 +189,7 @@ $(document).ready(function(){
         Next10.onclick =function(){
             Form10.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form10")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -205,7 +205,7 @@ $(document).ready(function(){
         Next11.onclick =function(){
             Form11.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form11")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -222,7 +222,7 @@ $(document).ready(function(){
         Next12.onclick =function(){
             Form12.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form12")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -238,7 +238,7 @@ $(document).ready(function(){
         Next13.onclick =function(){
             Form13.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form13")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -253,7 +253,7 @@ $(document).ready(function(){
         Next14.onclick =function(){
             Form14.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form14")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -268,7 +268,7 @@ $(document).ready(function(){
         Next15.onclick =function(){
             Form15.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form15")
-            if (currentFormIndex==15){
+            if (currentFormIndex==14){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
