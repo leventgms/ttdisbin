@@ -39,7 +39,7 @@ $(document).ready(function(){
             Instructions.style.left = "-1500px";
             var nextform =  storedform[1];
             window.alert(nextform);
-            nextform.style.left="0px";
+            storedform[1].style.left="0px";
             progress.style.width= "146.66px";
         };
 
