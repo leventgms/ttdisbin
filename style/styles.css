@@ -57,6 +57,33 @@ div.container2{
 
 }
 
+#finished{
+    width: 900px;
+    height: 350px;
+    top: 150px;
+    left: 100px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#Submit1{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color:#fff;
+    cursor: pointer;
+    position:absolute;
+    bottom: 75px;
+    right:100px;
+    
+
+}
+
+
 .btn-box{
     width: 100%;
     margin: 30px auto;
