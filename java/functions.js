@@ -30,7 +30,7 @@ $(document).ready(function(){
     var Next12= document.getElementById("Next12");
     var Next13= document.getElementById("Next13");
     var Next14= document.getElementById("Next14");
-    var Submit= document.getElementById("Submit");
+    var Submit1= document.getElementById("Submit1");
     
 
         Next1.onclick =function(){
