@@ -5,12 +5,19 @@
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.0/dist/js.cookie.min.js"></script>
         <script type="text/javascript" src="java/functions.js"> </script>
+         <script type="text/javascript" src="java/shuffle.js"></script>
     </head>
-    <body>
+    <body onload="shuffle()">
         <div class="container2">
             <img src="screenshots/logo_ugent.png" alt="Figure I. Example screenshot of the screen of the Task D" class="screenshot2">
         </div>
         <div class="choicearea">
+            <div class="instructions">
+            <h3> Welcome </h3>
+            <div class="btn-box">
+                    <button type="button" id="welcome"> Next</button>
+            </div>    
+            </div>
             <form id="Form1">
                   <u style="position: absolute; left: 225px; top:80px"> OPTION A </u>
                   <u style="position: absolute; right: 225px; top:80px">OPTION B </u>
