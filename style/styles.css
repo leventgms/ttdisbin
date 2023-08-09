@@ -15,6 +15,13 @@ div.container2{
     height: 150px;
 }
 
+.screenshot_A{
+      width: 200px;
+      height: 150px;
+      position: absolute;
+      bottom:-260px;
+      left:160px;
+}
 .choicearea{
     border: 2px solid;
     width:1100px;
