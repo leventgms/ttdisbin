@@ -37,7 +37,8 @@ $(document).ready(function(){
 
         welcome.onclick=function(){
             Instructions.style.left = "-1500px";
-            var nextform =  storedform[1];
+            var selector =  storedform[1];
+            var nextform = document.querySelector(selector);
             window.alert(nextform);
             storedform[1].style.left="0px";
             progress.style.width= "146.66px";
