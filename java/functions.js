@@ -267,6 +267,7 @@ $(document).ready(function(){
         };
         Next15.onclick =function(){
             Form15.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form15")
             if (currentFormIndex==15){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
