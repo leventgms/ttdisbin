@@ -37,8 +37,9 @@ $(document).ready(function(){
 
         welcome.onclick=function(){
             Instructions.style.left = "-1500px";
-            var nextform =  storedform[1]
-            nextform.style.left="0px"
+            var nextform =  storedform[1];
+            window.alert(nextform);
+            nextform.style.left="0px";
             progress.style.width= "146.66px";
         };
 
