@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    var Welcome= documentgetElementById("instructions");
+    var Instructions= documentgetElementById("instructions");
     var Form1= document.getElementById("Form1");
     var Form2= document.getElementById("Form2");
     var Form3= document.getElementById("Form3");
@@ -16,7 +16,8 @@ $(document).ready(function(){
     var Form13= document.getElementById("Form13");
     var Form14= document.getElementById("Form14");
     var Form15= document.getElementById("Form15");
- 
+
+    var Welcome= document.getElementById("welcome");
     var Next1= document.getElementById("Next1");
     var Next2= document.getElementById("Next2");
     var Next3= document.getElementById("Next3");
@@ -32,6 +33,15 @@ $(document).ready(function(){
     var Next13= document.getElementById("Next13");
     var Next14= document.getElementById("Next14");
     var Submit1= document.getElementById("Submit1");
+    var storedform=JSON.parse(localStorage.getItem("shuffledForms"))
+
+        welcome.onclick=function(){
+            Instructions.style.left = "-1500px";
+            var nextform =  storedform[1]
+            nextform.style.left="0px"
+            progress.style.width= "146.66px";
+        };
+
     
 
         Next1.onclick =function(){
