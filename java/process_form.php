@@ -63,8 +63,7 @@ $Bel_elicit_333l_12=$_POST["Bel_elicit_333l_12"];
 $Bel_elicit_333l_13=$_POST["Bel_elicit_333l_13"];
 $Bel_elicit_333l_14=$_POST["Bel_elicit_333l_14"];
 $Bel_elicit_333l_15=$_POST["Bel_elicit_333l_15"];
-$Bel_elicit_333l_16=$_POST["Bel_elicit_333l_16"];
-$Bel_elicit_333l_17=$_POST["Bel_elicit_333l_17"];
+
 
 $host="ec2-3-248-141-201.eu-west-1.compute.amazonaws.com";
 $dbname="d43sg2k0mcvm00";
