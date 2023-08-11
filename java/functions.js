@@ -830,9 +830,234 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32m_15',$("input[type=radio][name=Bel_elicit_32m_15]:checked").val()); 
         };
 
+        Next46.onclick =function(){
+            Form46.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form46")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_1',$("input[type=radio][name=Bel_elicit_333l_1]:checked").val()); 
+        };
+
+        Next47.onclick =function(){
+            Form47.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form47")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_2',$("input[type=radio][name=Bel_elicit_333l_2]:checked").val()); 
+        };
+
+        
+        Next48.onclick =function(){
+            Form48.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form48")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_3',$("input[type=radio][name=Bel_elicit_333l_3]:checked").val()); 
+        };
+
+        Next49.onclick =function(){
+            Form49.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form49")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_4',$("input[type=radio][name=Bel_elicit_333l_4]:checked").val()); 
+        };
+
+        Next50.onclick =function(){
+            Form50.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form50")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_5',$("input[type=radio][name=Bel_elicit_333l_5]:checked").val()); 
+        };
+
+        Next51.onclick =function(){
+            Form51.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form51")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_6',$("input[type=radio][name=Bel_elicit_333l_6]:checked").val()); 
+        };
+
+        Next52.onclick =function(){
+            Form52.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form52")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_7',$("input[type=radio][name=Bel_elicit_333l_7]:checked").val()); 
+        };
+
+        Next53.onclick =function(){
+            Form53.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form53")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_8',$("input[type=radio][name=Bel_elicit_333l_8]:checked").val()); 
+        };
+
+        Next54.onclick =function(){
+            Form54.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form54")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_9',$("input[type=radio][name=Bel_elicit_333l_9]:checked").val()); 
+        };
+
+        Next55.onclick =function(){
+            Form55.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form55")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_10',$("input[type=radio][name=Bel_elicit_333l_10]:checked").val()); 
+        };
+
+        Next56.onclick =function(){
+            Form56.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form56")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_11',$("input[type=radio][name=Bel_elicit_333l_11]:checked").val()); 
+        };
+
+        Next57.onclick =function(){
+            Form57.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form57")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_12',$("input[type=radio][name=Bel_elicit_333l_12]:checked").val()); 
+        };
+
+        Next58.onclick =function(){
+            Form58.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form58")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_13',$("input[type=radio][name=Bel_elicit_333l_13]:checked").val()); 
+        };
+
+        Next59.onclick =function(){
+            Form59.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form59")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_14',$("input[type=radio][name=Bel_elicit_333l_14]:checked").val()); 
+        };
+
+        Next60.onclick =function(){
+            Form60.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form60")
+            if (currentFormIndex==44){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_333l_15',$("input[type=radio][name=Bel_elicit_333l_15]:checked").val()); 
+        };
+
         Submit1.onclick =function(){
             progress.style.width= "1100px";
-            localStorage.setItem('Bel_elicit_30_15',$("input[type=radio][name=Bel_elicit_30_15]:checked").val());
             $.post("java/process_form.php",{ 
             Bel_elicit_30_1: localStorage.getItem('Bel_elicit_30_1'),
             Bel_elicit_30_2: localStorage.getItem('Bel_elicit_30_2'),
@@ -878,7 +1103,22 @@ $(document).ready(function(){
             Bel_elicit_32m_12: localStorage.getItem('Bel_elicit_32m_12'),
             Bel_elicit_32m_13: localStorage.getItem('Bel_elicit_32m_13'),
             Bel_elicit_32m_14: localStorage.getItem('Bel_elicit_32m_14'),
-            Bel_elicit_32m_15: localStorage.getItem('Bel_elicit_32m_15')});
+            Bel_elicit_32m_15: localStorage.getItem('Bel_elicit_32m_15'),
+            Bel_elicit_333l_1: localStorage.getItem('Bel_elicit_333l_1'),
+            Bel_elicit_333l_2: localStorage.getItem('Bel_elicit_333l_2'),
+            Bel_elicit_333l_3: localStorage.getItem('Bel_elicit_333l_3'),
+            Bel_elicit_333l_4: localStorage.getItem('Bel_elicit_333l_4'),
+            Bel_elicit_333l_5: localStorage.getItem('Bel_elicit_333l_5'),
+            Bel_elicit_333l_6: localStorage.getItem('Bel_elicit_333l_6'),
+            Bel_elicit_333l_7: localStorage.getItem('Bel_elicit_333l_7'),
+            Bel_elicit_333l_8: localStorage.getItem('Bel_elicit_333l_8'),
+            Bel_elicit_333l_9: localStorage.getItem('Bel_elicit_333l_9'),
+            Bel_elicit_333l_10: localStorage.getItem('Bel_elicit_333l_10'),
+            Bel_elicit_333l_11: localStorage.getItem('Bel_elicit_333l_11'),
+            Bel_elicit_333l_12: localStorage.getItem('Bel_elicit_333l_12'),
+            Bel_elicit_333l_13: localStorage.getItem('Bel_elicit_333l_13'),
+            Bel_elicit_333l_14: localStorage.getItem('Bel_elicit_333l_14'),
+            Bel_elicit_333l_15: localStorage.getItem('Bel_elicit_333l_15')});
         };
 
 });
