@@ -78,7 +78,7 @@ $(document).ready(function(){
         Next1.onclick =function(){
             Form1.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form1")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -93,7 +93,7 @@ $(document).ready(function(){
         Next2.onclick =function(){
             Form2.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form2")
-             if (currentFormIndex==14){
+             if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -109,7 +109,7 @@ $(document).ready(function(){
         Next3.onclick =function(){
             Form3.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form3")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -125,7 +125,7 @@ $(document).ready(function(){
         Next4.onclick =function(){
             Form4.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form4")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -141,7 +141,7 @@ $(document).ready(function(){
         Next5.onclick =function(){
             Form5.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form5")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -157,7 +157,7 @@ $(document).ready(function(){
         Next6.onclick =function(){
             Form6.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form6")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -173,7 +173,7 @@ $(document).ready(function(){
         Next7.onclick =function(){
             Form7.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form7")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -189,7 +189,7 @@ $(document).ready(function(){
         Next8.onclick =function(){
             Form8.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form8")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -206,7 +206,7 @@ $(document).ready(function(){
         Next9.onclick =function(){
             Form9.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form9")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -223,7 +223,7 @@ $(document).ready(function(){
         Next10.onclick =function(){
             Form10.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form10")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -240,7 +240,7 @@ $(document).ready(function(){
         Next11.onclick =function(){
             Form11.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form11")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -257,7 +257,7 @@ $(document).ready(function(){
         Next12.onclick =function(){
             Form12.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form12")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -274,7 +274,7 @@ $(document).ready(function(){
         Next13.onclick =function(){
             Form13.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form13")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -290,7 +290,7 @@ $(document).ready(function(){
         Next14.onclick =function(){
             Form14.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form14")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -306,7 +306,7 @@ $(document).ready(function(){
         Next15.onclick =function(){
             Form15.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form15")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -315,14 +315,14 @@ $(document).ready(function(){
             nextform.style.left = "0px";
             }   
             progress.style.width= "1100px";
-            localStorage.setItem('Bel_elicit_30_14',$("input[type=radio][name=Bel_elicit_30_14]:checked").val());
+            localStorage.setItem('Bel_elicit_30_15',$("input[type=radio][name=Bel_elicit_30_15]:checked").val());
 
         };
     
         Next16.onclick =function(){
             Form16.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form16")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -337,7 +337,7 @@ $(document).ready(function(){
         Next17.onclick =function(){
             Form17.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form17")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -352,7 +352,7 @@ $(document).ready(function(){
         Next18.onclick =function(){
             Form18.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form18")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -367,7 +367,7 @@ $(document).ready(function(){
         Next19.onclick =function(){
             Form19.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form19")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -382,7 +382,7 @@ $(document).ready(function(){
         Next20.onclick =function(){
             Form20.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form20")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -397,7 +397,7 @@ $(document).ready(function(){
         Next21.onclick =function(){
             Form21.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form21")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -412,7 +412,7 @@ $(document).ready(function(){
         Next22.onclick =function(){
             Form22.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form22")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -427,7 +427,7 @@ $(document).ready(function(){
         Next23.onclick =function(){
             Form23.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form23")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -442,7 +442,7 @@ $(document).ready(function(){
         Next24.onclick =function(){
             Form24.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form24")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -458,7 +458,7 @@ $(document).ready(function(){
         Next25.onclick =function(){
             Form25.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form25")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -473,7 +473,7 @@ $(document).ready(function(){
         Next26.onclick =function(){
             Form26.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form26")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -488,7 +488,7 @@ $(document).ready(function(){
         Next27.onclick =function(){
             Form27.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form27")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -503,7 +503,7 @@ $(document).ready(function(){
         Next28.onclick =function(){
             Form28.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form28")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -518,7 +518,7 @@ $(document).ready(function(){
         Next29.onclick =function(){
             Form29.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form29")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
@@ -533,7 +533,7 @@ $(document).ready(function(){
         Next30.onclick =function(){
             Form30.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form30")
-            if (currentFormIndex==14){
+            if (currentFormIndex==29){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
             }else{
