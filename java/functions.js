@@ -46,6 +46,21 @@ $(document).ready(function(){
     var Form43= document.getElementById("Form43");
     var Form44= document.getElementById("Form44");
     var Form45= document.getElementById("Form45");
+    var Form46= document.getElementById("Form46");
+    var Form47= document.getElementById("Form47");
+    var Form48= document.getElementById("Form48");
+    var Form49= document.getElementById("Form49");
+    var Form50= document.getElementById("Form50");
+    var Form51= document.getElementById("Form51");
+    var Form52= document.getElementById("Form52");
+    var Form53= document.getElementById("Form53");
+    var Form54= document.getElementById("Form54");
+    var Form55= document.getElementById("Form55");
+    var Form56= document.getElementById("Form56");
+    var Form57= document.getElementById("Form57");
+    var Form58= document.getElementById("Form58");
+    var Form59= document.getElementById("Form59");
+    var Form60= document.getElementById("Form60");
     var Completed=  document.getElementById("finished");
 
     var Welcome= document.getElementById("welcome");
@@ -94,6 +109,21 @@ $(document).ready(function(){
     var Next43= document.getElementById("Next43");
     var Next44= document.getElementById("Next44");
     var Next45= document.getElementById("Next45");
+    var Next46= document.getElementById("Next46");
+    var Next47= document.getElementById("Next47");
+    var Next48= document.getElementById("Next48");
+    var Next49= document.getElementById("Next49");
+    var Next50= document.getElementById("Next50");
+    var Next51= document.getElementById("Next51");
+    var Next52= document.getElementById("Next52");
+    var Next53= document.getElementById("Next53");
+    var Next54= document.getElementById("Next54");
+    var Next55= document.getElementById("Next55");
+    var Next56= document.getElementById("Next56");
+    var Next57= document.getElementById("Next57");
+    var Next58= document.getElementById("Next58");
+    var Next59= document.getElementById("Next59");
+    var Next60= document.getElementById("Next60");
     var Submit1= document.getElementById("Submit1");
     var storedform=JSON.parse(localStorage.getItem("shuffledForms"))
 
