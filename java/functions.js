@@ -75,8 +75,6 @@ $(document).ready(function(){
             progress.style.width= "73.3px";
         };
 
-    
-
         Next1.onclick =function(){
             Form1.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form1")
@@ -139,6 +137,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_30_4',$("input[type=radio][name=Bel_elicit_30_4]:checked").val());
 
         };
+
         Next5.onclick =function(){
             Form5.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form5")
@@ -154,6 +153,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_30_5',$("input[type=radio][name=Bel_elicit_30_5]:checked").val());
 
         };
+
         Next6.onclick =function(){
             Form6.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form6")
@@ -169,6 +169,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_30_6',$("input[type=radio][name=Bel_elicit_30_6]:checked").val());
 
         };
+
         Next7.onclick =function(){
             Form7.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form7")
@@ -184,6 +185,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_30_7',$("input[type=radio][name=Bel_elicit_30_7]:checked").val());
 
         };
+
         Next8.onclick =function(){
             Form8.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form8")
@@ -200,6 +202,7 @@ $(document).ready(function(){
             
 
         };
+
         Next9.onclick =function(){
             Form9.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form9")
@@ -216,6 +219,7 @@ $(document).ready(function(){
             
 
         };
+
         Next10.onclick =function(){
             Form10.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form10")
@@ -232,6 +236,7 @@ $(document).ready(function(){
             
 
         };
+
         Next11.onclick =function(){
             Form11.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form11")
@@ -265,6 +270,7 @@ $(document).ready(function(){
             
 
         };
+
         Next13.onclick =function(){
             Form13.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form13")
@@ -280,6 +286,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_30_13',$("input[type=radio][name=Bel_elicit_30_13]:checked").val()); 
 
         };
+
         Next14.onclick =function(){
             Form14.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form14")
@@ -295,6 +302,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_30_14',$("input[type=radio][name=Bel_elicit_30_14]:checked").val());
 
         };
+
         Next15.onclick =function(){
             Form15.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form15")
@@ -325,8 +333,8 @@ $(document).ready(function(){
             progress.style.width= "146.66px";
             localStorage.setItem('Bel_elicit_32l_1',$("input[type=radio][name=Bel_elicit_32l_1]:checked").val()); 
         };
-    
-      Next17.onclick =function(){
+
+        Next17.onclick =function(){
             Form17.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form17")
             if (currentFormIndex==14){
@@ -340,8 +348,8 @@ $(document).ready(function(){
             progress.style.width= "146.66px";
             localStorage.setItem('Bel_elicit_32l_2',$("input[type=radio][name=Bel_elicit_32l_2]:checked").val()); 
         };
-    
-          Next18.onclick =function(){
+
+        Next18.onclick =function(){
             Form18.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form18")
             if (currentFormIndex==14){
@@ -371,7 +379,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_4',$("input[type=radio][name=Bel_elicit_32l_4]:checked").val()); 
         };
 
-       Next20.onclick =function(){
+        Next20.onclick =function(){
             Form20.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form20")
             if (currentFormIndex==14){
@@ -386,7 +394,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_5',$("input[type=radio][name=Bel_elicit_32l_5]:checked").val()); 
         };
 
-       Next21.onclick =function(){
+        Next21.onclick =function(){
             Form21.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form21")
             if (currentFormIndex==14){
@@ -416,7 +424,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_7',$("input[type=radio][name=Bel_elicit_32l_7]:checked").val()); 
         };
 
-      Next23.onclick =function(){
+        Next23.onclick =function(){
             Form23.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form23")
             if (currentFormIndex==14){
@@ -431,7 +439,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_8',$("input[type=radio][name=Bel_elicit_32l_8]:checked").val()); 
         };
 
-     Next24.onclick =function(){
+        Next24.onclick =function(){
             Form24.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form24")
             if (currentFormIndex==14){
@@ -446,7 +454,8 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_9',$("input[type=radio][name=Bel_elicit_32l_9]:checked").val()); 
         };
 
-    Next25.onclick =function(){
+
+        Next25.onclick =function(){
             Form25.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form25")
             if (currentFormIndex==14){
@@ -461,7 +470,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_10',$("input[type=radio][name=Bel_elicit_32l_10]:checked").val()); 
         };
 
-    Next26.onclick =function(){
+        Next26.onclick =function(){
             Form26.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form26")
             if (currentFormIndex==14){
@@ -476,7 +485,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_11',$("input[type=radio][name=Bel_elicit_32l_11]:checked").val()); 
         };
 
-    Next27.onclick =function(){
+        Next27.onclick =function(){
             Form27.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form27")
             if (currentFormIndex==14){
@@ -491,7 +500,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_12',$("input[type=radio][name=Bel_elicit_32l_12]:checked").val()); 
         };
 
-    Next28.onclick =function(){
+        Next28.onclick =function(){
             Form28.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form28")
             if (currentFormIndex==14){
@@ -506,7 +515,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_13',$("input[type=radio][name=Bel_elicit_32l_13]:checked").val()); 
         };
 
-    Next29.onclick =function(){
+        Next29.onclick =function(){
             Form29.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form29")
             if (currentFormIndex==14){
@@ -521,7 +530,7 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_32l_14',$("input[type=radio][name=Bel_elicit_32l_14]:checked").val()); 
         };
 
-    Next30.onclick =function(){
+        Next30.onclick =function(){
             Form30.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form30")
             if (currentFormIndex==14){
@@ -535,7 +544,6 @@ $(document).ready(function(){
             progress.style.width= "146.66px";
             localStorage.setItem('Bel_elicit_32l_15',$("input[type=radio][name=Bel_elicit_32l_15]:checked").val()); 
         };
-
 
         Submit1.onclick =function(){
             progress.style.width= "1100px";
@@ -572,7 +580,6 @@ $(document).ready(function(){
             Bel_elicit_32l_14: localStorage.getItem('Bel_elicit_32l_14'),
             Bel_elicit_32l_15: localStorage.getItem('Bel_elicit_32l_15')});
         };
-
 
 });
 
