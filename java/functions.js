@@ -91,6 +91,36 @@ $(document).ready(function(){
     var Form88= document.getElementById("Form88");
     var Form89= document.getElementById("Form89");
     var Form90= document.getElementById("Form90");
+    var Form91= document.getElementById("Form91");
+    var Form92= document.getElementById("Form92");
+    var Form93= document.getElementById("Form93");
+    var Form94= document.getElementById("Form94");
+    var Form95= document.getElementById("Form95");
+    var Form96= document.getElementById("Form96");
+    var Form97= document.getElementById("Form97");
+    var Form98= document.getElementById("Form98");
+    var Form99= document.getElementById("Form99");
+    var Form100= document.getElementById("Form100");
+    var Form101= document.getElementById("Form101");
+    var Form102= document.getElementById("Form102");
+    var Form103= document.getElementById("Form103");
+    var Form104= document.getElementById("Form104");
+    var Form105= document.getElementById("Form105");
+    var Form106= document.getElementById("Form106");
+    var Form107= document.getElementById("Form107");
+    var Form108= document.getElementById("Form108");
+    var Form109= document.getElementById("Form109");
+    var Form110= document.getElementById("Form110");
+    var Form111= document.getElementById("Form111");
+    var Form112= document.getElementById("Form112");
+    var Form113= document.getElementById("Form113");
+    var Form114= document.getElementById("Form114");
+    var Form115= document.getElementById("Form115");
+    var Form116= document.getElementById("Form116");
+    var Form117= document.getElementById("Form117");
+    var Form118= document.getElementById("Form118");
+    var Form119= document.getElementById("Form119");
+    var Form120= document.getElementById("Form120");
     var Completed=  document.getElementById("finished");
 
     var Welcome= document.getElementById("welcome");
@@ -184,6 +214,36 @@ $(document).ready(function(){
     var Next88= document.getElementById("Next88");
     var Next89= document.getElementById("Next89");
     var Next90= document.getElementById("Next90");
+    var Next91= document.getElementById("Next91");
+    var Next92= document.getElementById("Next92");
+    var Next93= document.getElementById("Next93");
+    var Next94= document.getElementById("Next94");
+    var Next95= document.getElementById("Next95");
+    var Next96= document.getElementById("Next96");
+    var Next97= document.getElementById("Next97");
+    var Next98= document.getElementById("Next98");
+    var Next99= document.getElementById("Next99");
+    var Next100= document.getElementById("Next100");
+    var Next101= document.getElementById("Next101");
+    var Next102= document.getElementById("Next102");
+    var Next103= document.getElementById("Next103");
+    var Next104= document.getElementById("Next104");
+    var Next105= document.getElementById("Next105");
+    var Next106= document.getElementById("Next91");
+    var Next107= document.getElementById("Next92");
+    var Next108= document.getElementById("Next93");
+    var Next109= document.getElementById("Next94");
+    var Next110= document.getElementById("Next95");
+    var Next111= document.getElementById("Next96");
+    var Next112= document.getElementById("Next97");
+    var Next113= document.getElementById("Next98");
+    var Next114= document.getElementById("Next99");
+    var Next115= document.getElementById("Next100");
+    var Next116= document.getElementById("Next101");
+    var Next117= document.getElementById("Next102");
+    var Next118= document.getElementById("Next103");
+    var Next119= document.getElementById("Next104");
+    var Next120= document.getElementById("Next105");
     var Submit1= document.getElementById("Submit1");
     var storedform=JSON.parse(localStorage.getItem("shuffledForms"))
 
@@ -1566,6 +1626,111 @@ $(document).ready(function(){
             }            
             progress.style.width= "146.66px";
             localStorage.setItem('Bel_elicit_3_3l_15',$("input[type=radio][name=Bel_elicit_3_3l_15]:checked").val()); 
+        };
+
+        Next91.onclick =function(){
+            Form91.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form91")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_3_3m_1',$("input[type=radio][name=Bel_elicit_3_3m_1]:checked").val()); 
+        };
+
+        Next92.onclick =function(){
+            Form92.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form92")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_3_3m_2',$("input[type=radio][name=Bel_elicit_3_3m_2]:checked").val()); 
+        };
+
+        Next93.onclick =function(){
+            Form93.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form93")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_3_3m_3',$("input[type=radio][name=Bel_elicit_3_3m_3]:checked").val()); 
+        };
+
+        Next94.onclick =function(){
+            Form94.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form94")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_3_3m_4',$("input[type=radio][name=Bel_elicit_3_3m_4]:checked").val()); 
+        };
+
+        Next95.onclick =function(){
+            Form95.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form95")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_3_3m_5',$("input[type=radio][name=Bel_elicit_3_3m_5]:checked").val()); 
+        };
+
+        Next96.onclick =function(){
+            Form96.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form96")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_3_3m_6',$("input[type=radio][name=Bel_elicit_3_3m_6]:checked").val()); 
+        };
+
+        Next97.onclick =function(){
+            Form97.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form97")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_3_3m_7',$("input[type=radio][name=Bel_elicit_3_3m_7]:checked").val()); 
         };
 
 
