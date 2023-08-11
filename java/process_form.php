@@ -96,7 +96,37 @@ $Bel_elicit_3_3l_13=$_POST["Bel_elicit_3_3l_13"];
 $Bel_elicit_3_3l_14=$_POST["Bel_elicit_3_3l_14"];
 $Bel_elicit_3_3l_15=$_POST["Bel_elicit_3_3l_15"];
 
+$Bel_elicit_3_3m_1=$_POST["Bel_elicit_3_3m_1"];
+$Bel_elicit_3_3m_2=$_POST["Bel_elicit_3_3m_2"];
+$Bel_elicit_3_3m_3=$_POST["Bel_elicit_3_3m_3"];
+$Bel_elicit_3_3m_4=$_POST["Bel_elicit_3_3m_4"];
+$Bel_elicit_3_3m_5=$_POST["Bel_elicit_3_3m_5"];
+$Bel_elicit_3_3m_6=$_POST["Bel_elicit_3_3m_6"];
+$Bel_elicit_3_3m_7=$_POST["Bel_elicit_3_3m_7"];
+$Bel_elicit_3_3m_8=$_POST["Bel_elicit_3_3m_8"];
+$Bel_elicit_3_3m_9=$_POST["Bel_elicit_3_3m_9"];
+$Bel_elicit_3_3m_10=$_POST["Bel_elicit_3_3m_10"];
+$Bel_elicit_3_3m_11=$_POST["Bel_elicit_3_3m_11"];
+$Bel_elicit_3_3m_12=$_POST["Bel_elicit_3_3m_12"];
+$Bel_elicit_3_3m_13=$_POST["Bel_elicit_3_3m_13"];
+$Bel_elicit_3_3m_14=$_POST["Bel_elicit_3_3m_14"];
+$Bel_elicit_3_3m_15=$_POST["Bel_elicit_3_3m_15"];
 
+$Bel_elicit_23l_1=$_POST["Bel_elicit_23l_1"];
+$Bel_elicit_23l_2=$_POST["Bel_elicit_23l_2"];
+$Bel_elicit_23l_3=$_POST["Bel_elicit_23l_3"];
+$Bel_elicit_23l_4=$_POST["Bel_elicit_23l_4"];
+$Bel_elicit_23l_5=$_POST["Bel_elicit_23l_5"];
+$Bel_elicit_23l_6=$_POST["Bel_elicit_23l_6"];
+$Bel_elicit_23l_7=$_POST["Bel_elicit_23l_7"];
+$Bel_elicit_23l_8=$_POST["Bel_elicit_23l_8"];
+$Bel_elicit_23l_9=$_POST["Bel_elicit_23l_9"];
+$Bel_elicit_23l_10=$_POST["Bel_elicit_23l_10"];
+$Bel_elicit_23l_11=$_POST["Bel_elicit_23l_11"];
+$Bel_elicit_23l_12=$_POST["Bel_elicit_23l_12"];
+$Bel_elicit_23l_13=$_POST["Bel_elicit_23l_13"];
+$Bel_elicit_23l_14=$_POST["Bel_elicit_23l_14"];
+$Bel_elicit_23l_15=$_POST["Bel_elicit_23l_15"];
 
 
 $host="ec2-3-248-141-201.eu-west-1.compute.amazonaws.com";
@@ -131,11 +161,16 @@ $sql = "INSERT INTO ttdisbin (Bel_elicit_30_1, Bel_elicit_30_2,
                               Bel_elicit_333m_13, Bel_elicit_333m_14, Bel_elicit_333m_15, Bel_elicit_3_3l_1, Bel_elicit_3_3l_2, Bel_elicit_3_3l_3, Bel_elicit_3_3l_4, 
                               Bel_elicit_3_3l_5, Bel_elicit_3_3l_6, Bel_elicit_3_3l_7,
                               Bel_elicit_3_3l_8, Bel_elicit_3_3l_9, Bel_elicit_3_3l_10, Bel_elicit_3_3l_11, Bel_elicit_3_3l_12, Bel_elicit_3_3l_13, Bel_elicit_3_3l_14,
-                              Bel_elicit_3_3l_15)
+                              Bel_elicit_3_3l_15, Bel_elicit_3_3m_1, Bel_elicit_3_3m_2, Bel_elicit_3_3m_3, Bel_elicit_3_3m_4,
+                              Bel_elicit_3_3m_5, Bel_elicit_3_3m_6, Bel_elicit_3_3m_7, Bel_elicit_3_3m_8, Bel_elicit_3_3m_9, Bel_elicit_3_3m_10, Bel_elicit_3_3m_11,
+                              Bel_elicit_3_3m_12, Bel_elicit_3_3m_13, Bel_elicit_3_3m_14, Bel_elicit_3_3m_15, Bel_elicit_23l_1,
+                              Bel_elicit_23l_2, Bel_elicit_23l_3, Bel_elicit_23l_4, Bel_elicit_23l_5, Bel_elicit_23l_6, Bel_elicit_23l_7, Bel_elicit_23l_8, Bel_elicit_23l_9,
+                              Bel_elicit_23l_10, Bel_elicit_23l_11, Bel_elicit_23l_12, Bel_elicit_23l_13, Bel_elicit_23l_14, Bel_elicit_23l_15)
         VALUES ($1,	$2,	$3, 	$4, 	$5, 	$6, 	$7, 	$8, 	$9, 	$10,    $11,    $12,    $13,	$14,	$15,    $16,    $17,    $18,    $19,    $20,    $21,    $22,    $23,    $24,
         $25,	$26,	$27,	$28,	$29,	$30,	$31,	$32,    $33,	$34,	$35,	$36,	$37,	$38,	$39,	$40,	$41,	$42,	$43,	$44,	$45,    $46,	$47,	$48,
         $49,	$50,	$51,	$52,	$53,	$54,	$55,	$56,	$57,    $58,	$59,	$60,    $61,	$62,	$63,	$64,	$65,	$66,	$67,	$68,	$69,	$70,	$71,	$72,
-        $73,	$74,	$75,	$76,	$77,	$78,	$79,	$80,	$81,    $82,	$83,	$84,	$85,	$86,	$87,	$88,	$89,	$90)";                      
+        $73,	$74,	$75,	$76,	$77,	$78,	$79,	$80,	$81,    $82,	$83,	$84,	$85,	$86,	$87,	$88,	$89,	$90,    $91,	$92,	$93,	$94,	$95,	$96,
+        $97,	$98,	$99,	$100,	$101,	$102,	$103,	$104,	$105,   $106,	$107,	$108,	$109,	$110,	$111,  $112,   $113,   $114,	$115,	$116,	$117,	$118,	$119,	$120)";                      
 
 $stmt = pg_prepare($conn, "insert_stmt", $sql);
 
@@ -148,7 +183,11 @@ $params = array( $Bel_elicit_30_1, $Bel_elicit_30_2, $Bel_elicit_30_3, $Bel_elic
     $Bel_elicit_333l_13, $Bel_elicit_333l_14, $Bel_elicit_333l_15, $Bel_elicit_333m_1, $Bel_elicit_333m_2, $Bel_elicit_333m_3, $Bel_elicit_333m_4, $Bel_elicit_333m_5,
     $Bel_elicit_333m_6, $Bel_elicit_333m_7, $Bel_elicit_333m_8, $Bel_elicit_333m_9, $Bel_elicit_333m_10, $Bel_elicit_333m_11, $Bel_elicit_333m_12, $Bel_elicit_333m_13, $Bel_elicit_333m_14, $Bel_elicit_333m_15, $Bel_elicit_3_3l_1, 
     $Bel_elicit_3_3l_2, $Bel_elicit_3_3l_3, $Bel_elicit_3_3l_4, $Bel_elicit_3_3l_5, $Bel_elicit_3_3l_6, $Bel_elicit_3_3l_7, $Bel_elicit_3_3l_8, 
-    $Bel_elicit_3_3l_9, $Bel_elicit_3_3l_10, $Bel_elicit_3_3l_11, $Bel_elicit_3_3l_12, $Bel_elicit_3_3l_13, $Bel_elicit_3_3l_14, $Bel_elicit_3_3l_15);
+    $Bel_elicit_3_3l_9, $Bel_elicit_3_3l_10, $Bel_elicit_3_3l_11, $Bel_elicit_3_3l_12, $Bel_elicit_3_3l_13, $Bel_elicit_3_3l_14, $Bel_elicit_3_3l_15, $Bel_elicit_3_3m_1,
+    $Bel_elicit_3_3m_2, $Bel_elicit_3_3m_3, $Bel_elicit_3_3m_4, $Bel_elicit_3_3m_5, $Bel_elicit_3_3m_6, $Bel_elicit_3_3m_7, $Bel_elicit_3_3m_8, $Bel_elicit_3_3m_9, $Bel_elicit_3_3m_10, $Bel_elicit_3_3m_11,
+    $Bel_elicit_3_3m_12, $Bel_elicit_3_3m_13, $Bel_elicit_3_3m_14, $Bel_elicit_3_3m_15, $Bel_elicit_23l_1, $Bel_elicit_23l_2, $Bel_elicit_23l_3, $Bel_elicit_23l_4,
+    $Bel_elicit_23l_5, $Bel_elicit_23l_6, $Bel_elicit_23l_7, $Bel_elicit_23l_8, $Bel_elicit_23l_9, $Bel_elicit_23l_10, $Bel_elicit_23l_11, $Bel_elicit_23l_12, $Bel_elicit_23l_13, $Bel_elicit_23l_14,
+    $Bel_elicit_23l_15);
 
 $result = pg_execute($conn, "insert_stmt", $params);
 ?>
