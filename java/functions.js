@@ -1631,6 +1631,7 @@ $(document).ready(function(){
         Next91.onclick =function(){
             Form91.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form91")
+            window.alert(currentFormIndex)
             if (currentFormIndex==89){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
