@@ -1631,7 +1631,6 @@ $(document).ready(function(){
         Next91.onclick =function(){
             Form91.style.left = "-1500px";
             var currentFormIndex=storedform.indexOf("Form91")
-            window.alert(currentFormIndex)
             if (currentFormIndex==89){
                 Completed.style.left="0px";
                 progress.style.width= "146.66px";
@@ -1916,7 +1915,171 @@ $(document).ready(function(){
             localStorage.setItem('Bel_elicit_23l_4',$("input[type=radio][name=Bel_elicit_23l_4]:checked").val()); 
         };
 
+        Next110.onclick =function(){
+            Form110.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form110")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_5',$("input[type=radio][name=Bel_elicit_23l_5]:checked").val()); 
+        };
+
+        Next111.onclick =function(){
+            Form111.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form111")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_6',$("input[type=radio][name=Bel_elicit_23l_6]:checked").val()); 
+        };
+
         
+        Next112.onclick =function(){
+            Form112.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form112")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_7',$("input[type=radio][name=Bel_elicit_23l_7]:checked").val()); 
+        };
+
+        Next113.onclick =function(){
+            Form113.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form113")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_8',$("input[type=radio][name=Bel_elicit_23l_8]:checked").val()); 
+        };
+
+        Next114.onclick =function(){
+            Form114.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form114")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_9',$("input[type=radio][name=Bel_elicit_23l_9]:checked").val()); 
+        };
+
+        Next115.onclick =function(){
+            Form115.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form115")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_10',$("input[type=radio][name=Bel_elicit_23l_10]:checked").val()); 
+        };
+
+        Next116.onclick =function(){
+            Form116.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form116")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_11',$("input[type=radio][name=Bel_elicit_23l_11]:checked").val()); 
+        };
+
+        Next117.onclick =function(){
+            Form117.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form117")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_12',$("input[type=radio][name=Bel_elicit_23l_12]:checked").val()); 
+        };
+
+        Next118.onclick =function(){
+            Form118.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form118")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_13',$("input[type=radio][name=Bel_elicit_23l_13]:checked").val()); 
+        };
+
+        Next119.onclick =function(){
+            Form119.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form119")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_14',$("input[type=radio][name=Bel_elicit_23l_14]:checked").val()); 
+        };
+
+        Next120.onclick =function(){
+            Form120.style.left = "-1500px";
+            var currentFormIndex=storedform.indexOf("Form120")
+            if (currentFormIndex==89){
+                Completed.style.left="0px";
+                progress.style.width= "146.66px";
+            }else{
+            var nextformId = storedform[currentFormIndex +1];
+            var nextform= document.getElementById(nextformId);
+            nextform.style.left = "0px";
+            }            
+            progress.style.width= "146.66px";
+            localStorage.setItem('Bel_elicit_23l_15',$("input[type=radio][name=Bel_elicit_23l_15]:checked").val()); 
+        };
 
 
 
