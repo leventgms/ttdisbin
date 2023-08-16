@@ -252,35 +252,35 @@ $(document).ready(function () {
     var Form249 = document.getElementById("Form249");
     var Form250 = document.getElementById("Form250");
     var Form251 = document.getElementById("Form251");
-var Form252 = document.getElementById("Form252");
-var Form253 = document.getElementById("Form253");
-var Form254 = document.getElementById("Form254");
-var Form255 = document.getElementById("Form255");
-var Form256 = document.getElementById("Form256");
-var Form257 = document.getElementById("Form257");
-var Form258 = document.getElementById("Form258");
-var Form259 = document.getElementById("Form259");
-var Form260 = document.getElementById("Form260");
-var Form261 = document.getElementById("Form261");
-var Form262 = document.getElementById("Form262");
-var Form263 = document.getElementById("Form263");
-var Form264 = document.getElementById("Form264");
-var Form265 = document.getElementById("Form265");
-var Form266 = document.getElementById("Form266");
-var Form267 = document.getElementById("Form267");
-var Form268 = document.getElementById("Form268");
-var Form269 = document.getElementById("Form269");
-var Form270 = document.getElementById("Form270");
-var Form271 = document.getElementById("Form271");
-var Form272 = document.getElementById("Form272");
-var Form273 = document.getElementById("Form273");
-var Form274 = document.getElementById("Form274");
-var Form275 = document.getElementById("Form275");
-var Form276 = document.getElementById("Form276");
-var Form277 = document.getElementById("Form277");
-var Form278 = document.getElementById("Form278");
-var Form279 = document.getElementById("Form279");
-var Form280 = document.getElementById("Form280");
+    var Form252 = document.getElementById("Form252");
+    var Form253 = document.getElementById("Form253");
+    var Form254 = document.getElementById("Form254");
+    var Form255 = document.getElementById("Form255");
+    var Form256 = document.getElementById("Form256");
+    var Form257 = document.getElementById("Form257");
+    var Form258 = document.getElementById("Form258");
+    var Form259 = document.getElementById("Form259");
+    var Form260 = document.getElementById("Form260");
+    var Form261 = document.getElementById("Form261");
+    var Form262 = document.getElementById("Form262");
+    var Form263 = document.getElementById("Form263");
+    var Form264 = document.getElementById("Form264");
+    var Form265 = document.getElementById("Form265");
+    var Form266 = document.getElementById("Form266");
+    var Form267 = document.getElementById("Form267");
+    var Form268 = document.getElementById("Form268");
+    var Form269 = document.getElementById("Form269");
+    var Form270 = document.getElementById("Form270");
+    var Form271 = document.getElementById("Form271");
+    var Form272 = document.getElementById("Form272");
+    var Form273 = document.getElementById("Form273");
+    var Form274 = document.getElementById("Form274");
+    var Form275 = document.getElementById("Form275");
+    var Form276 = document.getElementById("Form276");
+    var Form277 = document.getElementById("Form277");
+    var Form278 = document.getElementById("Form278");
+    var Form279 = document.getElementById("Form279");
+    var Form280 = document.getElementById("Form280");
 
     var Completed = document.getElementById("finished");
 
@@ -536,35 +536,35 @@ var Form280 = document.getElementById("Form280");
     var Next249 = document.getElementById("Next249");
     var Next250 = document.getElementById("Next250");
     var Next251 = document.getElementById("Next251");
-var Next252 = document.getElementById("Next252");
-var Next253 = document.getElementById("Next253");
-var Next254 = document.getElementById("Next254");
-var Next255 = document.getElementById("Next255");
-var Next256 = document.getElementById("Next256");
-var Next257 = document.getElementById("Next257");
-var Next258 = document.getElementById("Next258");
-var Next259 = document.getElementById("Next259");
-var Next260 = document.getElementById("Next260");
-var Next261 = document.getElementById("Next261");
-var Next262 = document.getElementById("Next262");
-var Next263 = document.getElementById("Next263");
-var Next264 = document.getElementById("Next264");
-var Next265 = document.getElementById("Next265");
-var Next266 = document.getElementById("Next266");
-var Next267 = document.getElementById("Next267");
-var Next268 = document.getElementById("Next268");
-var Next269 = document.getElementById("Next269");
-var Next270 = document.getElementById("Next270");
-var Next271 = document.getElementById("Next271");
-var Next272 = document.getElementById("Next272");
-var Next273 = document.getElementById("Next273");
-var Next274 = document.getElementById("Next274");
-var Next275 = document.getElementById("Next275");
-var Next276 = document.getElementById("Next276");
-var Next277 = document.getElementById("Next277");
-var Next278 = document.getElementById("Next278");
-var Next279 = document.getElementById("Next279");
-var Next280 = document.getElementById("Next280");
+    var Next252 = document.getElementById("Next252");
+    var Next253 = document.getElementById("Next253");
+    var Next254 = document.getElementById("Next254");
+    var Next255 = document.getElementById("Next255");
+    var Next256 = document.getElementById("Next256");
+    var Next257 = document.getElementById("Next257");
+    var Next258 = document.getElementById("Next258");
+    var Next259 = document.getElementById("Next259");
+    var Next260 = document.getElementById("Next260");
+    var Next261 = document.getElementById("Next261");
+    var Next262 = document.getElementById("Next262");
+    var Next263 = document.getElementById("Next263");
+    var Next264 = document.getElementById("Next264");
+    var Next265 = document.getElementById("Next265");
+    var Next266 = document.getElementById("Next266");
+    var Next267 = document.getElementById("Next267");
+    var Next268 = document.getElementById("Next268");
+    var Next269 = document.getElementById("Next269");
+    var Next270 = document.getElementById("Next270");
+    var Next271 = document.getElementById("Next271");
+    var Next272 = document.getElementById("Next272");
+    var Next273 = document.getElementById("Next273");
+    var Next274 = document.getElementById("Next274");
+    var Next275 = document.getElementById("Next275");
+    var Next276 = document.getElementById("Next276");
+    var Next277 = document.getElementById("Next277");
+    var Next278 = document.getElementById("Next278");
+    var Next279 = document.getElementById("Next279");
+    var Next280 = document.getElementById("Next280");
     var Submit1 = document.getElementById("Submit1");
     var storedform = JSON.parse(localStorage.getItem("shuffledForms"))
 
@@ -3707,7 +3707,7 @@ var Next280 = document.getElementById("Next280");
         localStorage.setItem('Util_10_0_6', $("input[type=radio][name=Util_10_0_6]:checked").val());
     };
 
-    
+
     Next208.onclick = function () {
         Form208.style.left = "-1500px";
         var currentFormIndex = storedform.indexOf("Form208");
@@ -4354,6 +4354,466 @@ var Next280 = document.getElementById("Next280");
         localStorage.setItem('Util_20_10_11', $("input[type=radio][name=Util_20_10_11]:checked").val());
     };
 
+    Next251.onclick = function () {
+        Form251.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form251");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_1', $("input[type=radio][name=Ineq_05_1]:checked").val());
+    };
+
+    Next252.onclick = function () {
+        Form252.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form252");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_2', $("input[type=radio][name=Ineq_05_2]:checked").val());
+    };
+
+    Next253.onclick = function () {
+        Form253.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form253");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_3', $("input[type=radio][name=Ineq_05_3]:checked").val());
+    };
+
+    Next254.onclick = function () {
+        Form254.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form254");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_4', $("input[type=radio][name=Ineq_05_4]:checked").val());
+    };
+
+    Next255.onclick = function () {
+        Form255.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form255");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_5', $("input[type=radio][name=Ineq_05_5]:checked").val());
+    };
+
+    Next256.onclick = function () {
+        Form256.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form256");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_6', $("input[type=radio][name=Ineq_05_6]:checked").val());
+    };
+
+    Next257.onclick = function () {
+        Form257.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form257");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_7', $("input[type=radio][name=Ineq_05_7]:checked").val());
+    };
+
+    Next258.onclick = function () {
+        Form258.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form258");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_8', $("input[type=radio][name=Ineq_05_8]:checked").val());
+    };
+
+
+    Next259.onclick = function () {
+        Form259.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form259");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_9', $("input[type=radio][name=Ineq_05_9]:checked").val());
+    };
+
+
+    Next260.onclick = function () {
+        Form260.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form260");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_10', $("input[type=radio][name=Ineq_05_10]:checked").val());
+    };
+
+    Next261.onclick = function () {
+        Form261.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form261");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_11', $("input[type=radio][name=Ineq_05_11]:checked").val());
+    };
+
+    Next262.onclick = function () {
+        Form262.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form262");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_12', $("input[type=radio][name=Ineq_05_12]:checked").val());
+    };
+
+    Next263.onclick = function () {
+        Form263.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form263");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_13', $("input[type=radio][name=Ineq_05_13]:checked").val());
+    };
+
+    Next264.onclick = function () {
+        Form264.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form264");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_14', $("input[type=radio][name=Ineq_05_14]:checked").val());
+    };
+
+    Next265.onclick = function () {
+        Form265.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form265");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Ineq_05_15', $("input[type=radio][name=Ineq_05_15]:checked").val());
+    };
+
+    Next266.onclick = function () {
+        Form266.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form266");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_1', $("input[type=radio][name=Betr_05_1]:checked").val());
+    };
+
+    Next267.onclick = function () {
+        Form267.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form267");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_2', $("input[type=radio][name=Betr_05_2]:checked").val());
+    };
+
+    Next268.onclick = function () {
+        Form268.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form268");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_3', $("input[type=radio][name=Betr_05_3]:checked").val());
+    };
+
+    Next269.onclick = function () {
+        Form269.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form269");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_4', $("input[type=radio][name=Betr_05_4]:checked").val());
+    };
+
+    Next270.onclick = function () {
+        Form270.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form270");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_5', $("input[type=radio][name=Betr_05_5]:checked").val());
+    };
+
+    Next271.onclick = function () {
+        Form271.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form271");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_6', $("input[type=radio][name=Betr_05_6]:checked").val());
+    };
+
+
+    Next272.onclick = function () {
+        Form272.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form272");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_7', $("input[type=radio][name=Betr_05_7]:checked").val());
+    };
+
+    Next273.onclick = function () {
+        Form273.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form273");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_8', $("input[type=radio][name=Betr_05_8]:checked").val());
+    };
+
+    Next274.onclick = function () {
+        Form274.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form274");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_9', $("input[type=radio][name=Betr_05_9]:checked").val());
+    };
+
+
+    Next275.onclick = function () {
+        Form275.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form275");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_10', $("input[type=radio][name=Betr_05_10]:checked").val());
+    };
+
+    Next276.onclick = function () {
+        Form276.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form276");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_11', $("input[type=radio][name=Betr_05_11]:checked").val());
+    };
+
+    Next277.onclick = function () {
+        Form277.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form277");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_12', $("input[type=radio][name=Betr_05_12]:checked").val());
+    };
+
+    Next278.onclick = function () {
+        Form278.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form278");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_13', $("input[type=radio][name=Betr_05_13]:checked").val());
+    };
+
+    Next279.onclick = function () {
+        Form279.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form279");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_14', $("input[type=radio][name=Betr_05_14]:checked").val());
+    };
+
+    Next280.onclick = function () {
+        Form280.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("Form280");
+        if (currentFormIndex == 249) {
+            Completed.style.left = "0px";
+            progress.style.width = "146.66px";
+        } else {
+            var nextformId = storedform[currentFormIndex + 1];
+            var nextform = document.getElementById(nextformId);
+            nextform.style.left = "0px";
+        }
+        progress.style.width = "146.66px";
+        localStorage.setItem('Betr_05_15', $("input[type=radio][name=Betr_05_15]:checked").val());
+    };
+
+
+
+
+
+
+
     Submit1.onclick = function () {
         progress.style.width = "1100px";
         $.post("java/process_form.php", {
@@ -4537,76 +4997,107 @@ var Next280 = document.getElementById("Next280");
             Bel_elicit_333_m_13: localStorage.getItem('Bel_elicit_333_m_13'),
             Bel_elicit_333_m_14: localStorage.getItem('Bel_elicit_333_m_14'),
             Bel_elicit_333_m_15: localStorage.getItem('Bel_elicit_333_m_15'),
-            Util_10_0_1:localStorage.getItem('Util_10_0_1'),
-        Util_10_0_2:localStorage.getItem('Util_10_0_2'),
-        Util_10_0_3:localStorage.getItem('Util_10_0_3'),
-        Util_10_0_4:localStorage.getItem('Util_10_0_4'),
-        Util_10_0_5:localStorage.getItem('Util_10_0_5'),
-        Util_10_0_6:localStorage.getItem('Util_10_0_6'),
-        Util_10_0_7:localStorage.getItem('Util_10_0_7'),
-        Util_10_0_8:localStorage.getItem('Util_10_0_8'),
-        Util_10_0_9:localStorage.getItem('Util_10_0_9'),
-        Util_10_0_10:localStorage.getItem('Util_10_0_10'),
-        Util_10_0_11:localStorage.getItem('Util_10_0_11'),
-        Util_15_5_1:localStorage.getItem('Util_15_5_1'),
-        Util_15_5_2:localStorage.getItem('Util_15_5_2'),
-        Util_15_5_3:localStorage.getItem('Util_15_5_3'),
-        Util_15_5_4:localStorage.getItem('Util_15_5_4'),
-        Util_15_5_5:localStorage.getItem('Util_15_5_5'),
-        Util_15_5_6:localStorage.getItem('Util_15_5_6'),
-        Util_15_5_7:localStorage.getItem('Util_15_5_7'),
-        Util_15_5_8:localStorage.getItem('Util_15_5_8'),
-        Util_15_5_9:localStorage.getItem('Util_15_5_9'),
-        Util_15_5_10:localStorage.getItem('Util_15_5_10'),
-        Util_15_5_11:localStorage.getItem('Util_15_5_11'),
-        Util_20_10_1:localStorage.getItem('Util_20_10_1'),
-        Util_20_10_2:localStorage.getItem('Util_20_10_2'),
-        Util_20_10_3:localStorage.getItem('Util_20_10_3'),
-        Util_20_10_4:localStorage.getItem('Util_20_10_4'),
-        Util_20_10_5:localStorage.getItem('Util_20_10_5'),
-        Util_20_10_6:localStorage.getItem('Util_20_10_6'),
-        Util_20_10_7:localStorage.getItem('Util_20_10_7'),
-        Util_20_10_8:localStorage.getItem('Util_20_10_8'),
-        Util_20_10_9:localStorage.getItem('Util_20_10_9'),
-        Util_20_10_10:localStorage.getItem('Util_20_10_10'),
-        Util_20_10_11:localStorage.getItem('Util_20_10_11'),
-        Util_20_0_1:localStorage.getItem('Util_20_0_1'),
-        Util_20_0_2:localStorage.getItem('Util_20_0_2'),
-        Util_20_0_3:localStorage.getItem('Util_20_0_3'),
-        Util_20_0_4:localStorage.getItem('Util_20_0_4'),
-        Util_20_0_5:localStorage.getItem('Util_20_0_5'),
-        Util_20_0_6:localStorage.getItem('Util_20_0_6'),
-        Util_20_0_7:localStorage.getItem('Util_20_0_7'),
-        Util_20_0_8:localStorage.getItem('Util_20_0_8'),
-        Util_20_0_9:localStorage.getItem('Util_20_0_9'),
-        Util_20_0_10:localStorage.getItem('Util_20_0_10'),
-        Util_20_0_11:localStorage.getItem('Util_20_0_11'),
-        Util_20_0_12:localStorage.getItem('Util_20_0_12'),
-        Util_20_0_13:localStorage.getItem('Util_20_0_13'),
-        Util_20_0_14:localStorage.getItem('Util_20_0_14'),
-        Util_20_0_15:localStorage.getItem('Util_20_0_15'),
-        Util_20_0_16:localStorage.getItem('Util_20_0_16'),
-        Util_20_0_17:localStorage.getItem('Util_20_0_17'),
-        Util_20_0_18:localStorage.getItem('Util_20_0_18'),
-        Util_20_0_19:localStorage.getItem('Util_20_0_19'),
-        Util_20_0_20:localStorage.getItem('Util_20_0_20'),
-        Util_20_0_21:localStorage.getItem('Util_20_0_21'),
-        Util_20_5_1:localStorage.getItem('Util_20_5_1'),
-        Util_20_5_2:localStorage.getItem('Util_20_5_2'),
-        Util_20_5_3:localStorage.getItem('Util_20_5_3'),
-        Util_20_5_4:localStorage.getItem('Util_20_5_4'),
-        Util_20_5_5:localStorage.getItem('Util_20_5_5'),
-        Util_20_5_6:localStorage.getItem('Util_20_5_6'),
-        Util_20_5_7:localStorage.getItem('Util_20_5_7'),
-        Util_20_5_8:localStorage.getItem('Util_20_5_8'),
-        Util_20_5_9:localStorage.getItem('Util_20_5_9'),
-        Util_20_5_10:localStorage.getItem('Util_20_5_10'),
-        Util_20_5_11:localStorage.getItem('Util_20_5_11'),
-        Util_20_5_12:localStorage.getItem('Util_20_5_12'),
-        Util_20_5_13:localStorage.getItem('Util_20_5_13'),
-        Util_20_5_14:localStorage.getItem('Util_20_5_14'),
-        Util_20_5_15:localStorage.getItem('Util_20_5_15'),
-        Util_20_5_16:localStorage.getItem('Util_20_5_16')});
+            Util_10_0_1: localStorage.getItem('Util_10_0_1'),
+            Util_10_0_2: localStorage.getItem('Util_10_0_2'),
+            Util_10_0_3: localStorage.getItem('Util_10_0_3'),
+            Util_10_0_4: localStorage.getItem('Util_10_0_4'),
+            Util_10_0_5: localStorage.getItem('Util_10_0_5'),
+            Util_10_0_6: localStorage.getItem('Util_10_0_6'),
+            Util_10_0_7: localStorage.getItem('Util_10_0_7'),
+            Util_10_0_8: localStorage.getItem('Util_10_0_8'),
+            Util_10_0_9: localStorage.getItem('Util_10_0_9'),
+            Util_10_0_10: localStorage.getItem('Util_10_0_10'),
+            Util_10_0_11: localStorage.getItem('Util_10_0_11'),
+            Util_15_5_1: localStorage.getItem('Util_15_5_1'),
+            Util_15_5_2: localStorage.getItem('Util_15_5_2'),
+            Util_15_5_3: localStorage.getItem('Util_15_5_3'),
+            Util_15_5_4: localStorage.getItem('Util_15_5_4'),
+            Util_15_5_5: localStorage.getItem('Util_15_5_5'),
+            Util_15_5_6: localStorage.getItem('Util_15_5_6'),
+            Util_15_5_7: localStorage.getItem('Util_15_5_7'),
+            Util_15_5_8: localStorage.getItem('Util_15_5_8'),
+            Util_15_5_9: localStorage.getItem('Util_15_5_9'),
+            Util_15_5_10: localStorage.getItem('Util_15_5_10'),
+            Util_15_5_11: localStorage.getItem('Util_15_5_11'),
+            Util_20_10_1: localStorage.getItem('Util_20_10_1'),
+            Util_20_10_2: localStorage.getItem('Util_20_10_2'),
+            Util_20_10_3: localStorage.getItem('Util_20_10_3'),
+            Util_20_10_4: localStorage.getItem('Util_20_10_4'),
+            Util_20_10_5: localStorage.getItem('Util_20_10_5'),
+            Util_20_10_6: localStorage.getItem('Util_20_10_6'),
+            Util_20_10_7: localStorage.getItem('Util_20_10_7'),
+            Util_20_10_8: localStorage.getItem('Util_20_10_8'),
+            Util_20_10_9: localStorage.getItem('Util_20_10_9'),
+            Util_20_10_10: localStorage.getItem('Util_20_10_10'),
+            Util_20_10_11: localStorage.getItem('Util_20_10_11'),
+            Util_20_0_1: localStorage.getItem('Util_20_0_1'),
+            Util_20_0_2: localStorage.getItem('Util_20_0_2'),
+            Util_20_0_3: localStorage.getItem('Util_20_0_3'),
+            Util_20_0_4: localStorage.getItem('Util_20_0_4'),
+            Util_20_0_5: localStorage.getItem('Util_20_0_5'),
+            Util_20_0_6: localStorage.getItem('Util_20_0_6'),
+            Util_20_0_7: localStorage.getItem('Util_20_0_7'),
+            Util_20_0_8: localStorage.getItem('Util_20_0_8'),
+            Util_20_0_9: localStorage.getItem('Util_20_0_9'),
+            Util_20_0_10: localStorage.getItem('Util_20_0_10'),
+            Util_20_0_11: localStorage.getItem('Util_20_0_11'),
+            Util_20_0_12: localStorage.getItem('Util_20_0_12'),
+            Util_20_0_13: localStorage.getItem('Util_20_0_13'),
+            Util_20_0_14: localStorage.getItem('Util_20_0_14'),
+            Util_20_0_15: localStorage.getItem('Util_20_0_15'),
+            Util_20_0_16: localStorage.getItem('Util_20_0_16'),
+            Util_20_0_17: localStorage.getItem('Util_20_0_17'),
+            Util_20_0_18: localStorage.getItem('Util_20_0_18'),
+            Util_20_0_19: localStorage.getItem('Util_20_0_19'),
+            Util_20_0_20: localStorage.getItem('Util_20_0_20'),
+            Util_20_0_21: localStorage.getItem('Util_20_0_21'),
+            Util_20_5_1: localStorage.getItem('Util_20_5_1'),
+            Util_20_5_2: localStorage.getItem('Util_20_5_2'),
+            Util_20_5_3: localStorage.getItem('Util_20_5_3'),
+            Util_20_5_4: localStorage.getItem('Util_20_5_4'),
+            Util_20_5_5: localStorage.getItem('Util_20_5_5'),
+            Util_20_5_6: localStorage.getItem('Util_20_5_6'),
+            Util_20_5_7: localStorage.getItem('Util_20_5_7'),
+            Util_20_5_8: localStorage.getItem('Util_20_5_8'),
+            Util_20_5_9: localStorage.getItem('Util_20_5_9'),
+            Util_20_5_10: localStorage.getItem('Util_20_5_10'),
+            Util_20_5_11: localStorage.getItem('Util_20_5_11'),
+            Util_20_5_12: localStorage.getItem('Util_20_5_12'),
+            Util_20_5_13: localStorage.getItem('Util_20_5_13'),
+            Util_20_5_14: localStorage.getItem('Util_20_5_14'),
+            Util_20_5_15: localStorage.getItem('Util_20_5_15'),
+            Util_20_5_16: localStorage.getItem('Util_20_5_16'),
+            Ineq_05_1: localStorage.getItem('Ineq_05_1'),
+            Ineq_05_2: localStorage.getItem('Ineq_05_2'),
+            Ineq_05_3: localStorage.getItem('Ineq_05_3'),
+            Ineq_05_4: localStorage.getItem('Ineq_05_4'),
+            Ineq_05_5: localStorage.getItem('Ineq_05_5'),
+            Ineq_05_6: localStorage.getItem('Ineq_05_6'),
+            Ineq_05_7: localStorage.getItem('Ineq_05_7'),
+            Ineq_05_8: localStorage.getItem('Ineq_05_8'),
+            Ineq_05_9: localStorage.getItem('Ineq_05_9'),
+            Ineq_05_10: localStorage.getItem('Ineq_05_10'),
+            Ineq_05_11: localStorage.getItem('Ineq_05_11'),
+            Ineq_05_12: localStorage.getItem('Ineq_05_12'),
+            Ineq_05_13: localStorage.getItem('Ineq_05_13'),
+            Ineq_05_14: localStorage.getItem('Ineq_05_14'),
+            Ineq_05_15: localStorage.getItem('Ineq_05_15'),
+            Betr_05_1: localStorage.getItem('Betr_05_1'),
+            Betr_05_2: localStorage.getItem('Betr_05_2'),
+            Betr_05_3: localStorage.getItem('Betr_05_3'),
+            Betr_05_4: localStorage.getItem('Betr_05_4'),
+            Betr_05_5: localStorage.getItem('Betr_05_5'),
+            Betr_05_6: localStorage.getItem('Betr_05_6'),
+            Betr_05_7: localStorage.getItem('Betr_05_7'),
+            Betr_05_8: localStorage.getItem('Betr_05_8'),
+            Betr_05_9: localStorage.getItem('Betr_05_9'),
+            Betr_05_10: localStorage.getItem('Betr_05_10'),
+            Betr_05_11: localStorage.getItem('Betr_05_11'),
+            Betr_05_12: localStorage.getItem('Betr_05_12'),
+            Betr_05_13: localStorage.getItem('Betr_05_13'),
+            Betr_05_14: localStorage.getItem('Betr_05_14'),
+            Betr_05_15: localStorage.getItem('Betr_05_15')
+        });
     };
 
 });
