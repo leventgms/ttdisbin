@@ -304,6 +304,70 @@ $Ineq_05_13=$_POST["Ineq_05_13"];
 $Ineq_05_14=$_POST["Ineq_05_14"];
 $Ineq_05_15=$_POST["Ineq_05_15"];
 
+$Task_T_01=$_POST["Task_T_01"];
+$Task_T_02=$_POST["Task_T_02"];
+$Task_T_03=$_POST["Task_T_03"];
+$Task_T_04=$_POST["Task_T_04"];
+$Task_T_05=$_POST["Task_T_05"];
+$Task_T_06=$_POST["Task_T_06"];
+$Task_T_07=$_POST["Task_T_07"];
+$Task_T_08=$_POST["Task_T_08"];
+$Task_T_09=$_POST["Task_T_09"];
+$Task_T_10=$_POST["Task_T_10"];
+$Task_T_11=$_POST["Task_T_11"];
+$Task_T_12=$_POST["Task_T_12"];
+$Task_T_13=$_POST["Task_T_13"];
+$Task_T_14=$_POST["Task_T_14"];
+$Task_T_15=$_POST["Task_T_15"];
+
+$Risk_01_1=$_POST["Risk_01_1"];
+$Risk_01_2=$_POST["Risk_01_2"];
+$Risk_01_3=$_POST["Risk_01_3"];
+$Risk_01_4=$_POST["Risk_01_4"];
+$Risk_01_5=$_POST["Risk_01_5"];
+$Risk_01_6=$_POST["Risk_01_6"];
+$Risk_01_7=$_POST["Risk_01_7"];
+$Risk_01_8=$_POST["Risk_01_8"];
+$Risk_01_9=$_POST["Risk_01_9"];
+$Risk_01_10=$_POST["Risk_01_10"];
+$Risk_01_11=$_POST["Risk_01_11"];
+$Risk_01_12=$_POST["Risk_01_12"];
+$Risk_01_13=$_POST["Risk_01_13"];
+$Risk_01_14=$_POST["Risk_01_14"];
+$Risk_01_15=$_POST["Risk_01_15"];
+
+$Risk_05_1=$_POST["Risk_05_1"];
+$Risk_05_2=$_POST["Risk_05_2"];
+$Risk_05_3=$_POST["Risk_05_3"];
+$Risk_05_4=$_POST["Risk_05_4"];
+$Risk_05_5=$_POST["Risk_05_5"];
+$Risk_05_6=$_POST["Risk_05_6"];
+$Risk_05_7=$_POST["Risk_05_7"];
+$Risk_05_8=$_POST["Risk_05_8"];
+$Risk_05_9=$_POST["Risk_05_9"];
+$Risk_05_10=$_POST["Risk_05_10"];
+$Risk_05_11=$_POST["Risk_05_11"];
+$Risk_05_12=$_POST["Risk_05_12"];
+$Risk_05_13=$_POST["Risk_05_13"];
+$Risk_05_14=$_POST["Risk_05_14"];
+$Risk_05_15=$_POST["Risk_05_15"];
+
+$Risk_03_1=$_POST["Risk_03_1"];
+$Risk_03_2=$_POST["Risk_03_2"];
+$Risk_03_3=$_POST["Risk_03_3"];
+$Risk_03_4=$_POST["Risk_03_4"];
+$Risk_03_5=$_POST["Risk_03_5"];
+$Risk_03_6=$_POST["Risk_03_6"];
+$Risk_03_7=$_POST["Risk_03_7"];
+$Risk_03_8=$_POST["Risk_03_8"];
+$Risk_03_9=$_POST["Risk_03_9"];
+$Risk_03_10=$_POST["Risk_03_10"];
+$Risk_03_11=$_POST["Risk_03_11"];
+$Risk_03_12=$_POST["Risk_03_12"];
+$Risk_03_13=$_POST["Risk_03_13"];
+$Risk_03_14=$_POST["Risk_03_14"];
+$Risk_03_15=$_POST["Risk_03_15"];
+
 $host="ec2-3-248-141-201.eu-west-1.compute.amazonaws.com";
 $dbname="d43sg2k0mcvm00";
 $username="ylnkdtgmqzhkfu";
@@ -355,7 +419,11 @@ $sql = "INSERT INTO ttdisbin (Bel_elicit_30_1, Bel_elicit_30_2,
                             Util_20_0_20,	Util_20_0_21, Util_20_5_1,Util_20_5_2,	Util_20_5_3,	Util_20_5_4,	Util_20_5_5,	Util_20_5_6,	Util_20_5_7,	Util_20_5_8,	Util_20_5_9,    Util_20_5_10,	Util_20_5_11,
                             Util_20_5_12,	Util_20_5_13,	Util_20_5_14,	Util_20_5_15,	Util_20_5_16, Betr_01_15,	Betr_01_16,	Betr_01_17,Betr_05_1, Betr_05_2, Betr_05_3, Betr_05_4,	Betr_05_5,	Betr_05_6,	Betr_05_7,
                             Betr_05_8,	Betr_05_9, Betr_05_10,	Betr_05_11,	Betr_05_12,	Betr_05_13,	Betr_05_14,	Betr_05_15, Ineq_05_1, Ineq_05_2, Ineq_05_3, Ineq_05_4,	Ineq_05_5,	Ineq_05_6,	Ineq_05_7,	Ineq_05_8,	Ineq_05_9,
-                            Ineq_05_10,	Ineq_05_11,	Ineq_05_12,	Ineq_05_13,	Ineq_05_14,	Ineq_05_15)    
+                            Ineq_05_10,	Ineq_05_11,	Ineq_05_12,	Ineq_05_13,	Ineq_05_14,	Ineq_05_15, Task_T_01, Task_T_02, Task_T_03, Task_T_04, Task_T_05, Task_T_06, Task_T_07,
+                              Task_T_08, Task_T_09, Task_T_10, Task_T_11, Task_T_12, Task_T_13, Task_T_14, Task_T_15, Risk_01_1, Risk_01_2, Risk_01_3, Risk_01_4,	Risk_01_5,	Risk_01_6,	Risk_01_7,	Risk_01_8,	Risk_01_9,
+                              Risk_01_10,	Risk_01_11,	Risk_01_12,	Risk_01_13,	Risk_01_14,	Risk_01_15, Risk_05_1, Risk_05_2, Risk_05_3, Risk_05_4,	Risk_05_5,	Risk_05_6,	Risk_05_7,	Risk_05_8,	Risk_05_9,
+                              Risk_05_10,	Risk_05_11,	Risk_05_12,	Risk_05_13,	Risk_05_14,	Risk_05_15, Risk_03_1, Risk_03_2, Risk_03_3, Risk_03_4,	Risk_03_5,	Risk_03_6,	Risk_03_7,	Risk_03_8,	Risk_03_9,
+                              Risk_03_10,	Risk_03_11,	Risk_03_12,	Risk_03_13,	Risk_03_14,	Risk_03_15)    
         VALUES ($1,	$2,	$3, 	$4, 	$5, 	$6, 	$7, 	$8, 	$9, 	$10,    $11,    $12,    $13,	$14,	$15,    $16,    $17,    $18,    $19,    $20,    $21,    $22,    $23,    $24,
         $25,	$26,	$27,	$28,	$29,	$30,	$31,	$32,    $33,	$34,	$35,	$36,	$37,	$38,	$39,	$40,	$41,	$42,	$43,	$44,	$45,    $46,	$47,	$48,
         $49,	$50,	$51,	$52,	$53,	$54,	$55,	$56,	$57,    $58,	$59,	$60,    $61,	$62,	$63,	$64,	$65,	$66,	$67,	$68,	$69,	$70,	$71,	$72,
@@ -367,7 +435,10 @@ $sql = "INSERT INTO ttdisbin (Bel_elicit_30_1, Bel_elicit_30_2,
         $193,	$194,	$195,	$196,	$197,	$198,	$199,	$200,	$201,   $202,	$203,	$204,	$205,	$206,	$207,	$208,	$209,   $210,	$211,	$212,	$213,	$214,	$215,	$216,
         $217,	$218,	$219,	$220,	$221,	$222,   $223,	$224,	$225,	$226,	$227,	$228,	$229,	$230,	$231,	$232,	$233,	$234,	$235,	$236,	$237,	$238,	$239,	$240,
         $241, 	$242,	$243,	$244,	$245,	$246,	$247,	$248,	$249,	$250,   $251,	$252,	$253,	$254,	$255,	$256,   $257,	$258,	$259,	$260,	$261,	$262,	$263,	$264,
-        $265,	$266,	$267,	$268,	$269,	$270,	$271,	$272,	$273,	$274,	$275,	$276,	$277,	$278,	$279,	$280)";                      
+        $265,	$266,	$267,	$268,	$269,	$270,	$271,	$272,	$273,	$274,	$275,	$276,	$277,	$278,	$279,	$280,   $281,	$282,	$283,	$284,	$285,	$286,	$287,	$288,
+        $289,	$290,	$291,	$292,	$293,	$294,	$295,	$296,	$297,	$298,	$299,	$300,	$301,	$302,	$303,	$304,	$305,	$306,	$307,   $308,	$309,	$310,	$311,	$312,
+        $313,	$314,	$315,	$316,   $317,	$318,	$319,	$320,	$321,	$322,	$323,	$324,	$325,	$326,	$327,	$328,	$329,	$330,	$331,	$332,	$333,	$334,	$335,	$336,
+        $337,	$338,	$339,	$340)";                      
 
 $stmt = pg_prepare($conn, "insert_stmt", $sql);
 
@@ -397,7 +468,10 @@ $params = array( $Bel_elicit_30_1, $Bel_elicit_30_2, $Bel_elicit_30_3, $Bel_elic
     $Util_20_0_19,  $Util_20_0_20,	$Util_20_0_21,  $Util_20_5_1,	$Util_20_5_2,	$Util_20_5_3,	$Util_20_5_4,	$Util_20_5_5,	$Util_20_5_6,	$Util_20_5_7,	$Util_20_5_8,	$Util_20_5_9,   $Util_20_5_10,	$Util_20_5_11,	$Util_20_5_12,	
     $Util_20_5_13,	$Util_20_5_14,	$Util_20_5_15,	$Util_20_5_16,   $Betr_05_1,    $Betr_05_2,     $Betr_05_3,      $Betr_05_4,	$Betr_05_5,	$Betr_05_6,	$Betr_05_7,	$Betr_05_8,	$Betr_05_9,    $Betr_05_10,	$Betr_05_11,	$Betr_05_12,
     $Betr_05_13,	$Betr_05_14,	$Betr_05_15,    $Ineq_05_1, $Ineq_05_2, $Ineq_05_3, $Ineq_05_4,	$Ineq_05_5,	$Ineq_05_6,	$Ineq_05_7,	$Ineq_05_8,	$Ineq_05_9, $Ineq_05_10,	$Ineq_05_11,	$Ineq_05_12,	$Ineq_05_13,	$Ineq_05_14,
-    $Ineq_05_15 );
+    $Ineq_05_15,    $Task_T_01, $Task_T_02, $Task_T_03, $Task_T_04, $Task_T_05, $Task_T_06, $Task_T_07, $Task_T_08, $Task_T_09, $Task_T_10, $Task_T_11, $Task_T_12, $Task_T_13, $Task_T_14, $Task_T_15, $Risk_01_1, $Risk_01_2, $Risk_01_3, $Risk_01_4,	$Risk_01_5,	$Risk_01_6,	$Risk_01_7,	$Risk_01_8,	$Risk_01_9,
+    $Risk_01_10,	$Risk_01_11,	$Risk_01_12,	$Risk_01_13,	$Risk_01_14,	$Risk_01_15,  $Risk_05_1, $Risk_05_2, $Risk_05_3, $Risk_05_4,	$Risk_05_5,	$Risk_05_6,	$Risk_05_7,	$Risk_05_8,	$Risk_05_9,  $Risk_05_10,	$Risk_05_11,
+    $Risk_05_12,	$Risk_05_13,	$Risk_05_14,	$Risk_05_15,    $Risk_03_1,     $Risk_03_2,   $Risk_03_3, $Risk_03_4,	$Risk_03_5,	$Risk_03_6,	$Risk_03_7,	$Risk_03_8,	$Risk_03_9,
+    $Risk_03_10,	$Risk_03_11,	$Risk_03_12,	$Risk_03_13,	$Risk_03_14,	$Risk_03_15 );
 
 $result = pg_execute($conn, "insert_stmt", $params);
 ?>
