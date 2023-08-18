@@ -1,13 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 div.container2{
     position: absolute;
     width: 300px;
     height: 300px;
     top: 20px;
-    left:20px
+    left:20%;
 
 }
 .screenshot2{
@@ -92,9 +89,9 @@ div.Option_B_betrayal{
 
 #instructions{
     width: 900px;
-    height: 350px;
-    top: 150px;
-    left: 100px;
+    height: 600px;
+    top: 65px;
+    left: 80px;
     position: absolute;
     transition: 0.5s;
 }
