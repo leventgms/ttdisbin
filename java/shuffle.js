@@ -47,6 +47,8 @@ const shuffledForms_trust= shuffle(formId_trust);
 const shuffledForms_belief= shuffle(formId_belief);
 const shuffledForms=[];
 
-shuffledForms.push(...shuffledForms_trust,shuffledForms_belief,shuffledForms_riub);
+const shuffledForms= shuffledForms.push(...shuffledForms_trust);
+const shuffledForms= shuffledForms.push(...shuffledForms_belief);
+const shuffledForms= shuffledForms.push(...shuffledForms_riub);
 
 localStorage.setItem("shuffledForms",JSON.stringify(shuffledForms));
