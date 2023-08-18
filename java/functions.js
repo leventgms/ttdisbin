@@ -342,7 +342,7 @@ $(document).ready(function () {
     var Form339 = document.getElementById("Form339");
     var Form340 = document.getElementById("Form340");
     var Completed = document.getElementById("finished");
-
+    var Instructions_Belief = document.getElementById("instructions_belief");
     var Welcome = document.getElementById("welcome");
     var Next1 = document.getElementById("Next1");
     var Next2 = document.getElementById("Next2");
@@ -691,7 +691,7 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById(nextformId);
+        var nextform = Instructions_Belief;
         nextform.style.left = "0px";
         progress.style.width = "73.3px";
     };
