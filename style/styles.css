@@ -107,8 +107,8 @@ div.Option_B_betrayal{
     color:#fff;
     cursor: pointer;
     position:absolute;
-    bottom: 75px;
-    right:100px;
+    left:800px; 
+    top: 380px;
     
 
 }
