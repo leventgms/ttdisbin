@@ -693,7 +693,7 @@ $(document).ready(function () {
     // Function to adjust the width based on the content being displayed
     function adjustChoiceAreaWidth(contentId) {
         if (contentId === 'instructions_belief') {
-            choiceareaContainer.style.height = '1800px';
+            choiceareaContainer.style.height = '1950px';
         } else {
             choiceareaContainer.style.height = '600px';
         }
