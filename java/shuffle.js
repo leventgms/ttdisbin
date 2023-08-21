@@ -1,7 +1,5 @@
 const tasks=["betr","ineq","risk","util"]
 
-const formId_Instructions=[];
-
 const formId_risk = [ "Form296", "Form297", "Form298", "Form299", "Form300", "Form301", "Form302", "Form303",
     "Form304", "Form305", "Form306", "Form307", "Form308", "Form309", "Form310", "Form311", "Form312", "Form313", "Form314", "Form315", "Form316",
     "Form317", "Form318", "Form319", "Form320", "Form321", "Form322", "Form323", "Form324", "Form325", "Form326", "Form327", "Form328", "Form329",
@@ -40,6 +38,8 @@ const formId_belief = ["Form1", "Form2", "Form3", "Form4", "Form5", "Form6", "Fo
 
 const formId_strategy = ["Form341"]
 
+const instructions_belief=["instructions_belief"];
+
 function shuffle(array) {
     var currentIndex = array.length;
     var temporaryValue, randomIndex;
@@ -56,11 +56,10 @@ function shuffle(array) {
 
 const shuffledTasks= shuffle(tasks);
 const shuffledForms_trust = shuffle(formId_trust);
-const instructions_belief=["instructions_belief"];
 const shuffle_belief=shuffle(formId_belief);
 const shuffledForms_belief = [...instructions_belief,...shuffle_belief];
 
-const shuffledForms = [...shuffledForms_trust,...shuffledForms_Belief,...formId_Strategy];
+const shuffledForms = [...shuffledForms_trust,...shuffledForms_belief,...formId_Strategy];
 
 for (const task of shuffledTasks) {
     switch (task) {
