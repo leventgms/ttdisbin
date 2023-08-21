@@ -686,7 +686,18 @@ $(document).ready(function () {
     var Next340 = document.getElementById("Next340");
 
     var Submit1 = document.getElementById("Submit1");
-    var storedform = JSON.parse(localStorage.getItem("shuffledForms"))
+    var storedform = JSON.parse(localStorage.getItem("shuffledForms"));
+
+    const choiceareaContainer = document.getElementById('choicearea-container');
+
+    // Function to adjust the width based on the content being displayed
+    function adjustChoiceAreaWidth(contentId) {
+        if (contentId === 'instructions_belief') {
+            choiceareaContainer.style.width = '1800px';
+        } else {
+            choiceareaContainer.style.width = '600px';
+        }
+    };
 
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
@@ -694,6 +705,7 @@ $(document).ready(function () {
         var nextform = Instructions_Belief;
         nextform.style.left = "0px";
         progress.style.width = "73.3px";
+        adjustChoiceAreaWidth('instructions_belief');
     };
 
     Next1.onclick = function () {
@@ -6179,7 +6191,8 @@ $(document).ready(function () {
             Task_T_12: localStorage.getItem('Task_T_12'),
             Task_T_13: localStorage.getItem('Task_T_13'),
             Task_T_14: localStorage.getItem('Task_T_14'),
-            Task_T_15: localStorage.getItem('Task_T_15')});
+            Task_T_15: localStorage.getItem('Task_T_15')
+        });
     };
 
 });
