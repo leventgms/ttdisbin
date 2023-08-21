@@ -684,7 +684,7 @@ $(document).ready(function () {
     var Next338 = document.getElementById("Next338");
     var Next339 = document.getElementById("Next339");
     var Next340 = document.getElementById("Next340");
-    var Next_Belief=document.getElementById("Next_Belief");
+    var Next_Belief=document.getElementById("Next_belief");
     var Submit1 = document.getElementById("Submit1");
     var storedform = JSON.parse(localStorage.getItem("shuffledForms"));
 
