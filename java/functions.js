@@ -714,6 +714,7 @@ $(document).ready(function () {
         var nextform = document.getElementById(nextformId);
         nextform.style.left = "0px";
         progress.style.width = "73.3px";
+        adjustChoiceAreaWidth('Form1');
     };
 
     Next1.onclick = function () {
