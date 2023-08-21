@@ -693,9 +693,9 @@ $(document).ready(function () {
     // Function to adjust the width based on the content being displayed
     function adjustChoiceAreaWidth(contentId) {
         if (contentId === 'instructions_belief') {
-            choiceareaContainer.style.width = '1800px';
+            choiceareaContainer.style.height = '1800px';
         } else {
-            choiceareaContainer.style.width = '600px';
+            choiceareaContainer.style.height = '600px';
         }
     };
 
