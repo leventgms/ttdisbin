@@ -691,7 +691,7 @@ $(document).ready(function () {
     const choiceareaContainer = document.getElementById('choicearea-container');
 
     // Function to adjust the width based on the content being displayed
-    function adjustChoiceAreaWidth(contentId) {
+    function adjustChoiceAreaHeight(contentId) {
         if (contentId === 'instructions_belief') {
             choiceareaContainer.style.height = '1950px';
         } else {
@@ -705,6 +705,7 @@ $(document).ready(function () {
         var nextform = document.getElementById(nextformId);
         nextform.style.left = "0px";
         progress.style.width = "73.3px";
+        adjustChoiceAreaHeight(nextform);
         
     };
 
@@ -714,7 +715,7 @@ $(document).ready(function () {
         var nextform = document.getElementById(nextformId);
         nextform.style.left = "0px";
         progress.style.width = "73.3px";
-        adjustChoiceAreaWidth('Form1');
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next1.onclick = function () {
@@ -4962,6 +4963,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_01', $("input[type=radio][name=Task_T_01]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next282.onclick = function () {
@@ -4977,6 +4979,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_02', $("input[type=radio][name=Task_T_02]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next283.onclick = function () {
@@ -4992,6 +4995,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_03', $("input[type=radio][name=Task_T_03]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next284.onclick = function () {
@@ -5007,6 +5011,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_04', $("input[type=radio][name=Task_T_04]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next285.onclick = function () {
@@ -5022,6 +5027,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_05', $("input[type=radio][name=Task_T_05]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next286.onclick = function () {
@@ -5037,6 +5043,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_06', $("input[type=radio][name=Task_T_06]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next287.onclick = function () {
@@ -5052,6 +5059,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_07', $("input[type=radio][name=Task_T_07]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next288.onclick = function () {
@@ -5067,6 +5075,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_08', $("input[type=radio][name=Task_T_08]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next289.onclick = function () {
@@ -5082,6 +5091,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_09', $("input[type=radio][name=Task_T_09]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
 
@@ -5098,6 +5108,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_10', $("input[type=radio][name=Task_T_10]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
 
@@ -5114,6 +5125,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_11', $("input[type=radio][name=Task_T_11]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
 
@@ -5130,6 +5142,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_12', $("input[type=radio][name=Task_T_12]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
 
@@ -5146,6 +5159,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_13', $("input[type=radio][name=Task_T_13]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next294.onclick = function () {
@@ -5161,6 +5175,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_14', $("input[type=radio][name=Task_T_14]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next295.onclick = function () {
@@ -5176,6 +5191,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Task_T_15', $("input[type=radio][name=Task_T_15]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next296.onclick = function () {
@@ -5191,6 +5207,7 @@ $(document).ready(function () {
         }
         progress.style.width = "146.66px";
         localStorage.setItem('Risk_05_1', $("input[type=radio][name=Risk_05_1]:checked").val());
+        adjustChoiceAreaHeight(nextform);
     };
 
     Next297.onclick = function () {
