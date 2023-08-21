@@ -703,6 +703,8 @@ $(document).ready(function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
         var nextform = document.getElementById(nextformId);
+        window.alert(nextformId);
+        window.alert(nextform);
         nextform.style.left = "0px";
         progress.style.width = "73.3px";
         adjustChoiceAreaHeight(nextform);
