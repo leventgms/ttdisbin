@@ -57,7 +57,8 @@ function shuffle(array) {
 const shuffledTasks= shuffle(tasks);
 const shuffledForms_trust = shuffle(formId_trust);
 const instructions_belief=["instructions_belief"];
-const shuffledForms_belief = [...instructions_belief,...shuffle(formId_belief)];
+const shuffle_belief=shuffle(formId_belief);
+const shuffledForms_belief = [...instructions_belief,...shuffle_belief];
 
 const shuffledForms = [...shuffledForms_trust,...shuffledForms_Belief,...formId_Strategy];
 
