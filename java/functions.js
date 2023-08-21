@@ -713,7 +713,8 @@ $(document).ready(function () {
 
     Next_Belief.onclick = function () {
         Instructions_Belief.style.left = "-1500px";
-        var nextformId = storedform[0];
+        var currentFormIndex = storedform.indexOf("instructions_belief")
+        var nextformId = storedform[currentFormIndex + 1];
         var nextform = document.getElementById(nextformId);
         nextform.style.left = "0px";
         progress.style.width = "73.3px";
