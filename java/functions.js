@@ -684,7 +684,7 @@ $(document).ready(function () {
     var Next338 = document.getElementById("Next338");
     var Next339 = document.getElementById("Next339");
     var Next340 = document.getElementById("Next340");
-
+    var Next_Belief=document.getElementById("Next_Belief");
     var Submit1 = document.getElementById("Submit1");
     var storedform = JSON.parse(localStorage.getItem("shuffledForms"));
 
@@ -706,6 +706,14 @@ $(document).ready(function () {
         nextform.style.left = "0px";
         progress.style.width = "73.3px";
         adjustChoiceAreaWidth('instructions_belief');
+    };
+
+    Next_Belief.onclick = function () {
+        Instructions_Belief.style.left = "-1500px";
+        var nextformId = storedform[0];
+        var nextform = Instructions_Belief;
+        nextform.style.left = "0px";
+        progress.style.width = "73.3px";
     };
 
     Next1.onclick = function () {
