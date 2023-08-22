@@ -6363,7 +6363,7 @@ $(document).ready(function () {
     };
 
     Next281.onclick = function () {
-        if ($("input[type=radio][name=Task_T_01]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_01]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6384,7 +6384,7 @@ $(document).ready(function () {
     };
 
     Next282.onclick = function () {
-        if ($("input[type=radio][name=Task_T_02]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_02]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6405,7 +6405,7 @@ $(document).ready(function () {
     };
 
     Next283.onclick = function () {
-        if ($("input[type=radio][name=Task_T_03]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_03]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6426,7 +6426,7 @@ $(document).ready(function () {
     };
 
     Next284.onclick = function () {
-        if ($("input[type=radio][name=Task_T_04]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_04]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6447,7 +6447,7 @@ $(document).ready(function () {
     };
 
     Next285.onclick = function () {
-        if ($("input[type=radio][name=Task_T_05]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_05]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6468,7 +6468,7 @@ $(document).ready(function () {
     };
 
     Next286.onclick = function () {
-        if ($("input[type=radio][name=Task_T_06]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_06]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6489,7 +6489,7 @@ $(document).ready(function () {
     };
 
     Next287.onclick = function () {
-        if ($("input[type=radio][name=Task_T_07]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_07]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6510,7 +6510,7 @@ $(document).ready(function () {
     };
 
     Next288.onclick = function () {
-        if ($("input[type=radio][name=Task_T_08]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_08]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6531,7 +6531,7 @@ $(document).ready(function () {
     };
 
     Next289.onclick = function () {
-        if ($("input[type=radio][name=Task_T_09]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_09]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6553,7 +6553,7 @@ $(document).ready(function () {
 
 
     Next290.onclick = function () {
-        if ($("input[type=radio][name=Task_T_10]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_10]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6575,7 +6575,7 @@ $(document).ready(function () {
 
 
     Next291.onclick = function () {
-        if ($("input[type=radio][name=Task_T_11]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_11]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6597,7 +6597,7 @@ $(document).ready(function () {
 
 
     Next292.onclick = function () {
-        if ($("input[type=radio][name=Task_T_12]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_12]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6619,7 +6619,7 @@ $(document).ready(function () {
 
 
     Next293.onclick = function () {
-        if ($("input[type=radio][name=Task_T_13]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_13]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6640,7 +6640,7 @@ $(document).ready(function () {
     };
 
     Next294.onclick = function () {
-        if ($("input[type=radio][name=Task_T_14]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_14]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6661,7 +6661,7 @@ $(document).ready(function () {
     };
 
     Next295.onclick = function () {
-        if ($("input[type=radio][name=Task_T_15]:checked").val() == 0) {
+        if ($("input[type=radio][name=Task_T_15]:checked").val() == undefined) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
