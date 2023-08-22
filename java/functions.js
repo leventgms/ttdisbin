@@ -690,15 +690,15 @@ $(document).ready(function () {
 
     const choiceareaContainer = document.getElementById('choicearea-container');
 
-    
-function radionumber(){
-    var radio=document.querySelectorAll('input[type="radio"]:checked');
-    var values=[]
-    for(var i =0;i <radio.length;i++){
-    values.push(radio[i].value);
+
+    function radionumber() {
+        var radio = document.querySelectorAll('input[type="radio"]:checked');
+        var values = []
+        for (var i = 0; i < radio.length; i++) {
+            values.push(radio[i].value);
+        }
+        return values;
     }
-    return values; 
-}   
 
     // Function to adjust the width based on the content being displayed
     function adjustChoiceAreaHeight(contentId) {
@@ -732,9 +732,7 @@ function radionumber(){
     };
 
     Next1.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -754,9 +752,7 @@ function radionumber(){
     };
 
     Next2.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_2]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -776,9 +772,7 @@ function radionumber(){
     };
 
     Next3.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_3]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -798,9 +792,7 @@ function radionumber(){
     };
 
     Next4.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_4]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -821,9 +813,7 @@ function radionumber(){
     };
 
     Next5.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_5]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -844,9 +834,7 @@ function radionumber(){
     };
 
     Next6.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_6]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -868,9 +856,7 @@ function radionumber(){
 
     Next7.onclick = function () {
 
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_7]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -891,9 +877,7 @@ function radionumber(){
     };
 
     Next8.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_8]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -915,9 +899,7 @@ function radionumber(){
     };
 
     Next9.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_9]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -939,9 +921,7 @@ function radionumber(){
     };
 
     Next10.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_10]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -963,9 +943,7 @@ function radionumber(){
     };
 
     Next11.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_11]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -987,9 +965,7 @@ function radionumber(){
     };
 
     Next12.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_12]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1011,9 +987,7 @@ function radionumber(){
     };
 
     Next13.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_13]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1034,9 +1008,7 @@ function radionumber(){
     };
 
     Next14.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_14]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1057,9 +1029,7 @@ function radionumber(){
     };
 
     Next15.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_15]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1080,9 +1050,7 @@ function radionumber(){
     };
 
     Next16.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1102,9 +1070,7 @@ function radionumber(){
     };
 
     Next17.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_2]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1124,9 +1090,7 @@ function radionumber(){
     };
 
     Next18.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_3]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1146,9 +1110,7 @@ function radionumber(){
     };
 
     Next19.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_4]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1168,9 +1130,7 @@ function radionumber(){
     };
 
     Next20.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_5]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1190,9 +1150,7 @@ function radionumber(){
     };
 
     Next21.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_6]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1212,9 +1170,7 @@ function radionumber(){
     };
 
     Next22.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_7]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1234,9 +1190,7 @@ function radionumber(){
     };
 
     Next23.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_8]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1256,9 +1210,7 @@ function radionumber(){
     };
 
     Next24.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_9]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1279,9 +1231,7 @@ function radionumber(){
 
 
     Next25.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_10]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1301,9 +1251,7 @@ function radionumber(){
     };
 
     Next26.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_11]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1323,9 +1271,7 @@ function radionumber(){
     };
 
     Next27.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_12]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1345,9 +1291,7 @@ function radionumber(){
     };
 
     Next28.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_13]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1367,9 +1311,7 @@ function radionumber(){
     };
 
     Next29.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_14]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1389,9 +1331,7 @@ function radionumber(){
     };
 
     Next30.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32l_15]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1411,9 +1351,7 @@ function radionumber(){
     };
 
     Next31.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1433,9 +1371,7 @@ function radionumber(){
     };
 
     Next32.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_2]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1455,9 +1391,7 @@ function radionumber(){
     };
 
     Next33.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_3]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1477,9 +1411,7 @@ function radionumber(){
     };
 
     Next34.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_4]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1499,9 +1431,7 @@ function radionumber(){
     };
 
     Next35.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_5]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1521,9 +1451,7 @@ function radionumber(){
     };
 
     Next36.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_6]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1543,9 +1471,7 @@ function radionumber(){
     };
 
     Next37.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_7]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1565,9 +1491,7 @@ function radionumber(){
     };
 
     Next38.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_8]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1587,9 +1511,7 @@ function radionumber(){
     };
 
     Next39.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_9]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1609,9 +1531,7 @@ function radionumber(){
     };
 
     Next40.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_10]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1631,9 +1551,7 @@ function radionumber(){
     };
 
     Next41.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_11]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1653,9 +1571,7 @@ function radionumber(){
     };
 
     Next42.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_12]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1675,9 +1591,7 @@ function radionumber(){
     };
 
     Next43.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_13]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1697,9 +1611,7 @@ function radionumber(){
     };
 
     Next44.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_14]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1719,9 +1631,7 @@ function radionumber(){
     };
 
     Next45.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_32m_15]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1741,9 +1651,7 @@ function radionumber(){
     };
 
     Next46.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1763,9 +1671,7 @@ function radionumber(){
     };
 
     Next47.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_2]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1786,9 +1692,7 @@ function radionumber(){
 
 
     Next48.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_3]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1808,9 +1712,7 @@ function radionumber(){
     };
 
     Next49.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_4]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1830,9 +1732,7 @@ function radionumber(){
     };
 
     Next50.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_5]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1852,9 +1752,7 @@ function radionumber(){
     };
 
     Next51.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_6]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1874,9 +1772,7 @@ function radionumber(){
     };
 
     Next52.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_7]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1896,9 +1792,7 @@ function radionumber(){
     };
 
     Next53.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_8]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1918,9 +1812,7 @@ function radionumber(){
     };
 
     Next54.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_9]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1940,9 +1832,7 @@ function radionumber(){
     };
 
     Next55.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_10]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1962,9 +1852,7 @@ function radionumber(){
     };
 
     Next56.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_11]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -1984,9 +1872,7 @@ function radionumber(){
     };
 
     Next57.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_12]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2006,9 +1892,7 @@ function radionumber(){
     };
 
     Next58.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_13]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2028,9 +1912,7 @@ function radionumber(){
     };
 
     Next59.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_14]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2050,9 +1932,7 @@ function radionumber(){
     };
 
     Next60.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333l_15]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2072,9 +1952,7 @@ function radionumber(){
     };
 
     Next61.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2094,9 +1972,7 @@ function radionumber(){
     };
 
     Next62.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_2]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2116,9 +1992,7 @@ function radionumber(){
     };
 
     Next63.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_3]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2138,9 +2012,7 @@ function radionumber(){
     };
 
     Next64.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_4]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2160,9 +2032,7 @@ function radionumber(){
     };
 
     Next65.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_5]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2182,9 +2052,7 @@ function radionumber(){
     };
 
     Next66.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_6]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2204,9 +2072,7 @@ function radionumber(){
     };
 
     Next67.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_7]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2226,9 +2092,7 @@ function radionumber(){
     };
 
     Next68.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_8]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2248,9 +2112,7 @@ function radionumber(){
     };
 
     Next69.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_9]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2270,9 +2132,7 @@ function radionumber(){
     };
 
     Next70.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_10]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2292,9 +2152,7 @@ function radionumber(){
     };
 
     Next71.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_11]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2314,9 +2172,7 @@ function radionumber(){
     };
 
     Next72.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_12]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2337,9 +2193,7 @@ function radionumber(){
 
 
     Next73.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_13]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2359,9 +2213,7 @@ function radionumber(){
     };
 
     Next74.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_14]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2381,9 +2233,7 @@ function radionumber(){
     };
 
     Next75.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_333m_15]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2403,9 +2253,7 @@ function radionumber(){
     };
 
     Next76.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2425,9 +2273,7 @@ function radionumber(){
     };
 
     Next77.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_2]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2447,9 +2293,7 @@ function radionumber(){
     };
 
     Next78.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_3]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2469,9 +2313,7 @@ function radionumber(){
     };
 
     Next79.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_4]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2492,9 +2334,7 @@ function radionumber(){
 
 
     Next80.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_5]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2514,9 +2354,7 @@ function radionumber(){
     };
 
     Next81.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_6]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2536,9 +2374,7 @@ function radionumber(){
     };
 
     Next82.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_7]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2558,9 +2394,7 @@ function radionumber(){
     };
 
     Next83.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2580,9 +2414,7 @@ function radionumber(){
     };
 
     Next84.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2602,9 +2434,7 @@ function radionumber(){
     };
 
     Next85.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2624,9 +2454,7 @@ function radionumber(){
     };
 
     Next86.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2646,9 +2474,7 @@ function radionumber(){
     };
 
     Next87.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2668,9 +2494,7 @@ function radionumber(){
     };
 
     Next88.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2690,9 +2514,7 @@ function radionumber(){
     };
 
     Next89.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2712,9 +2534,7 @@ function radionumber(){
     };
 
     Next90.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2734,9 +2554,7 @@ function radionumber(){
     };
 
     Next91.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2756,9 +2574,7 @@ function radionumber(){
     };
 
     Next92.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2778,9 +2594,7 @@ function radionumber(){
     };
 
     Next93.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2800,9 +2614,7 @@ function radionumber(){
     };
 
     Next94.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2822,9 +2634,7 @@ function radionumber(){
     };
 
     Next95.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2844,9 +2654,7 @@ function radionumber(){
     };
 
     Next96.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2866,9 +2674,7 @@ function radionumber(){
     };
 
     Next97.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2888,9 +2694,7 @@ function radionumber(){
     };
 
     Next98.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2910,9 +2714,7 @@ function radionumber(){
     };
 
     Next99.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2932,9 +2734,7 @@ function radionumber(){
     };
 
     Next100.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2954,9 +2754,7 @@ function radionumber(){
     };
 
     Next101.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -2977,12 +2775,10 @@ function radionumber(){
 
 
     Next102.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
-        } else {  
+        } else {
             Form102.style.left = "-1500px";
             var currentFormIndex = storedform.indexOf("Form102")
             if (currentFormIndex == 339) {
@@ -2999,9 +2795,7 @@ function radionumber(){
     };
 
     Next103.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3021,9 +2815,7 @@ function radionumber(){
     };
 
     Next104.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3043,9 +2835,7 @@ function radionumber(){
     };
 
     Next105.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3065,9 +2855,7 @@ function radionumber(){
     };
 
     Next106.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3087,9 +2875,7 @@ function radionumber(){
     };
 
     Next107.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3109,9 +2895,7 @@ function radionumber(){
     };
 
     Next108.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3132,9 +2916,7 @@ function radionumber(){
 
 
     Next109.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3154,9 +2936,7 @@ function radionumber(){
     };
 
     Next110.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3176,9 +2956,7 @@ function radionumber(){
     };
 
     Next111.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3199,9 +2977,7 @@ function radionumber(){
 
 
     Next112.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3221,9 +2997,7 @@ function radionumber(){
     };
 
     Next113.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3243,9 +3017,7 @@ function radionumber(){
     };
 
     Next114.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3265,9 +3037,7 @@ function radionumber(){
     };
 
     Next115.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3287,9 +3057,7 @@ function radionumber(){
     };
 
     Next116.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3309,9 +3077,7 @@ function radionumber(){
     };
 
     Next117.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3331,9 +3097,7 @@ function radionumber(){
     };
 
     Next118.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3353,9 +3117,7 @@ function radionumber(){
     };
 
     Next119.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3375,9 +3137,7 @@ function radionumber(){
     };
 
     Next120.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3397,9 +3157,7 @@ function radionumber(){
     };
 
     Next121.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3419,9 +3177,7 @@ function radionumber(){
     };
 
     Next122.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3441,9 +3197,7 @@ function radionumber(){
     };
 
     Next123.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3463,9 +3217,7 @@ function radionumber(){
     };
 
     Next124.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3485,9 +3237,7 @@ function radionumber(){
     };
 
     Next125.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3507,9 +3257,7 @@ function radionumber(){
     };
 
     Next126.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3529,9 +3277,7 @@ function radionumber(){
     };
 
     Next127.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3551,9 +3297,7 @@ function radionumber(){
     };
 
     Next128.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3573,9 +3317,7 @@ function radionumber(){
     };
 
     Next129.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3595,9 +3337,7 @@ function radionumber(){
     };
 
     Next130.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3617,9 +3357,7 @@ function radionumber(){
     };
 
     Next131.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3639,9 +3377,7 @@ function radionumber(){
     };
 
     Next132.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3661,9 +3397,7 @@ function radionumber(){
     };
 
     Next133.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3683,9 +3417,7 @@ function radionumber(){
     };
 
     Next134.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3705,9 +3437,7 @@ function radionumber(){
     };
 
     Next135.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3727,9 +3457,7 @@ function radionumber(){
     };
 
     Next136.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3749,9 +3477,7 @@ function radionumber(){
     };
 
     Next137.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3771,9 +3497,7 @@ function radionumber(){
     };
 
     Next138.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3793,9 +3517,7 @@ function radionumber(){
     };
 
     Next139.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3815,9 +3537,7 @@ function radionumber(){
     };
 
     Next140.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3837,9 +3557,7 @@ function radionumber(){
     };
 
     Next141.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3859,9 +3577,7 @@ function radionumber(){
     };
 
     Next142.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3881,9 +3597,7 @@ function radionumber(){
     };
 
     Next143.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3903,9 +3617,7 @@ function radionumber(){
     };
 
     Next144.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3925,9 +3637,7 @@ function radionumber(){
     };
 
     Next145.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3947,9 +3657,7 @@ function radionumber(){
     };
 
     Next146.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3969,9 +3677,7 @@ function radionumber(){
     };
 
     Next147.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -3991,9 +3697,7 @@ function radionumber(){
     };
 
     Next148.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4013,9 +3717,7 @@ function radionumber(){
     };
 
     Next149.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4035,9 +3737,7 @@ function radionumber(){
     };
 
     Next150.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4057,9 +3757,7 @@ function radionumber(){
     };
 
     Next151.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4079,9 +3777,7 @@ function radionumber(){
     };
 
     Next152.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4101,9 +3797,7 @@ function radionumber(){
     };
 
     Next153.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4123,9 +3817,7 @@ function radionumber(){
     };
 
     Next154.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4145,9 +3837,7 @@ function radionumber(){
     };
 
     Next155.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4167,9 +3857,7 @@ function radionumber(){
     };
 
     Next156.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4189,9 +3877,7 @@ function radionumber(){
     };
 
     Next157.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4211,9 +3897,7 @@ function radionumber(){
     };
 
     Next158.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4233,9 +3917,7 @@ function radionumber(){
     };
 
     Next159.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4255,9 +3937,7 @@ function radionumber(){
     };
 
     Next160.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4277,9 +3957,7 @@ function radionumber(){
     };
 
     Next161.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4299,9 +3977,7 @@ function radionumber(){
     };
 
     Next162.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4321,9 +3997,7 @@ function radionumber(){
     };
 
     Next163.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4343,9 +4017,7 @@ function radionumber(){
     };
 
     Next164.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4365,9 +4037,7 @@ function radionumber(){
     };
 
     Next165.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4387,9 +4057,7 @@ function radionumber(){
     };
 
     Next166.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4409,9 +4077,7 @@ function radionumber(){
     };
 
     Next167.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4431,9 +4097,7 @@ function radionumber(){
     };
 
     Next168.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4453,9 +4117,7 @@ function radionumber(){
     };
 
     Next169.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4475,9 +4137,7 @@ function radionumber(){
     };
 
     Next170.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4497,9 +4157,7 @@ function radionumber(){
     };
 
     Next171.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4519,9 +4177,7 @@ function radionumber(){
     };
 
     Next172.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4541,9 +4197,7 @@ function radionumber(){
     };
 
     Next173.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4563,9 +4217,7 @@ function radionumber(){
     };
 
     Next174.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4585,9 +4237,7 @@ function radionumber(){
     };
 
     Next175.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4607,9 +4257,7 @@ function radionumber(){
     };
 
     Next176.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4629,9 +4277,7 @@ function radionumber(){
     };
 
     Next177.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4651,9 +4297,7 @@ function radionumber(){
     };
 
     Next178.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4673,9 +4317,7 @@ function radionumber(){
     };
 
     Next179.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4695,9 +4337,7 @@ function radionumber(){
     };
 
     Next180.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4717,9 +4357,7 @@ function radionumber(){
     };
 
     Next181.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4739,9 +4377,7 @@ function radionumber(){
     };
 
     Next182.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4761,9 +4397,7 @@ function radionumber(){
     };
 
     Next183.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4783,9 +4417,7 @@ function radionumber(){
     };
 
     Next184.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4805,9 +4437,7 @@ function radionumber(){
     };
 
     Next185.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4827,9 +4457,7 @@ function radionumber(){
     };
 
     Next186.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4849,9 +4477,7 @@ function radionumber(){
     };
 
     Next187.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4871,9 +4497,7 @@ function radionumber(){
     };
 
     Next188.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4893,9 +4517,7 @@ function radionumber(){
     };
 
     Next189.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4915,9 +4537,7 @@ function radionumber(){
     };
 
     Next190.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4937,9 +4557,7 @@ function radionumber(){
     };
 
     Next191.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4959,9 +4577,7 @@ function radionumber(){
     };
 
     Next192.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -4981,9 +4597,7 @@ function radionumber(){
     };
 
     Next193.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5003,9 +4617,7 @@ function radionumber(){
     };
 
     Next194.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5025,9 +4637,7 @@ function radionumber(){
     };
 
     Next195.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5047,9 +4657,7 @@ function radionumber(){
     };
 
     Next196.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5069,9 +4677,7 @@ function radionumber(){
     };
 
     Next197.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5091,9 +4697,7 @@ function radionumber(){
     };
 
     Next198.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5113,9 +4717,7 @@ function radionumber(){
     };
 
     Next199.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5135,9 +4737,7 @@ function radionumber(){
     };
 
     Next200.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5157,9 +4757,7 @@ function radionumber(){
     };
 
     Next201.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5179,9 +4777,7 @@ function radionumber(){
     };
 
     Next202.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5201,9 +4797,7 @@ function radionumber(){
     };
 
     Next203.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5223,9 +4817,7 @@ function radionumber(){
     };
 
     Next204.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5245,9 +4837,7 @@ function radionumber(){
     };
 
     Next205.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5267,9 +4857,7 @@ function radionumber(){
     };
 
     Next206.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5289,9 +4877,7 @@ function radionumber(){
     };
 
     Next207.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5312,9 +4898,7 @@ function radionumber(){
 
 
     Next208.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5334,9 +4918,7 @@ function radionumber(){
     };
 
     Next209.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5356,9 +4938,7 @@ function radionumber(){
     };
 
     Next210.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5378,9 +4958,7 @@ function radionumber(){
     };
 
     Next211.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5400,9 +4978,7 @@ function radionumber(){
     };
 
     Next212.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5423,9 +4999,7 @@ function radionumber(){
 
 
     Next213.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5445,9 +5019,7 @@ function radionumber(){
     };
 
     Next214.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5467,9 +5039,7 @@ function radionumber(){
     };
 
     Next215.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5489,9 +5059,7 @@ function radionumber(){
     };
 
     Next216.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5511,9 +5079,7 @@ function radionumber(){
     };
 
     Next217.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5533,9 +5099,7 @@ function radionumber(){
     };
 
     Next218.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5555,9 +5119,7 @@ function radionumber(){
     };
 
     Next219.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5577,9 +5139,7 @@ function radionumber(){
     };
 
     Next220.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5599,9 +5159,7 @@ function radionumber(){
     };
 
     Next221.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5621,9 +5179,7 @@ function radionumber(){
     };
 
     Next222.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5643,9 +5199,7 @@ function radionumber(){
     };
 
     Next223.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5665,9 +5219,7 @@ function radionumber(){
     };
 
     Next224.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5687,9 +5239,7 @@ function radionumber(){
     };
 
     Next225.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5709,9 +5259,7 @@ function radionumber(){
     };
 
     Next226.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5731,9 +5279,7 @@ function radionumber(){
     };
 
     Next227.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5753,9 +5299,7 @@ function radionumber(){
     };
 
     Next228.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5775,9 +5319,7 @@ function radionumber(){
     };
 
     Next229.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5797,9 +5339,7 @@ function radionumber(){
     };
 
     Next230.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5819,9 +5359,7 @@ function radionumber(){
     };
 
     Next231.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5841,9 +5379,7 @@ function radionumber(){
     };
 
     Next232.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5863,9 +5399,7 @@ function radionumber(){
     };
 
     Next233.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5885,9 +5419,7 @@ function radionumber(){
     };
 
     Next234.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5907,9 +5439,7 @@ function radionumber(){
     };
 
     Next235.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5929,9 +5459,7 @@ function radionumber(){
     };
 
     Next236.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5951,9 +5479,7 @@ function radionumber(){
     };
 
     Next237.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5973,9 +5499,7 @@ function radionumber(){
     };
 
     Next238.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -5995,9 +5519,7 @@ function radionumber(){
     };
 
     Next239.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6017,9 +5539,7 @@ function radionumber(){
     };
 
     Next240.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6039,9 +5559,7 @@ function radionumber(){
     };
 
     Next241.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6061,9 +5579,7 @@ function radionumber(){
     };
 
     Next242.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6083,9 +5599,7 @@ function radionumber(){
     };
 
     Next243.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6105,9 +5619,7 @@ function radionumber(){
     };
 
     Next244.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6127,9 +5639,7 @@ function radionumber(){
     };
 
     Next245.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6149,9 +5659,7 @@ function radionumber(){
     };
 
     Next246.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6171,9 +5679,7 @@ function radionumber(){
     };
 
     Next247.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6193,9 +5699,7 @@ function radionumber(){
     };
 
     Next248.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6215,9 +5719,7 @@ function radionumber(){
     };
 
     Next249.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6237,9 +5739,7 @@ function radionumber(){
     };
 
     Next250.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6259,9 +5759,7 @@ function radionumber(){
     };
 
     Next251.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6281,9 +5779,7 @@ function radionumber(){
     };
 
     Next252.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6303,9 +5799,7 @@ function radionumber(){
     };
 
     Next253.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6325,9 +5819,7 @@ function radionumber(){
     };
 
     Next254.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6347,9 +5839,7 @@ function radionumber(){
     };
 
     Next255.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6369,9 +5859,7 @@ function radionumber(){
     };
 
     Next256.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6391,9 +5879,7 @@ function radionumber(){
     };
 
     Next257.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6413,9 +5899,7 @@ function radionumber(){
     };
 
     Next258.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6436,9 +5920,7 @@ function radionumber(){
 
 
     Next259.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6459,9 +5941,7 @@ function radionumber(){
 
 
     Next260.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6481,9 +5961,7 @@ function radionumber(){
     };
 
     Next261.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6503,9 +5981,7 @@ function radionumber(){
     };
 
     Next262.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6525,9 +6001,7 @@ function radionumber(){
     };
 
     Next263.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6547,9 +6021,7 @@ function radionumber(){
     };
 
     Next264.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6569,9 +6041,7 @@ function radionumber(){
     };
 
     Next265.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6591,9 +6061,7 @@ function radionumber(){
     };
 
     Next266.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6613,9 +6081,7 @@ function radionumber(){
     };
 
     Next267.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6635,9 +6101,7 @@ function radionumber(){
     };
 
     Next268.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6657,9 +6121,7 @@ function radionumber(){
     };
 
     Next269.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6679,9 +6141,7 @@ function radionumber(){
     };
 
     Next270.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6701,9 +6161,7 @@ function radionumber(){
     };
 
     Next271.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6724,9 +6182,7 @@ function radionumber(){
 
 
     Next272.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6746,9 +6202,7 @@ function radionumber(){
     };
 
     Next273.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6768,9 +6222,7 @@ function radionumber(){
     };
 
     Next274.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6791,9 +6243,7 @@ function radionumber(){
 
 
     Next275.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6813,9 +6263,7 @@ function radionumber(){
     };
 
     Next276.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6835,9 +6283,7 @@ function radionumber(){
     };
 
     Next277.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6857,9 +6303,7 @@ function radionumber(){
     };
 
     Next278.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6879,9 +6323,7 @@ function radionumber(){
     };
 
     Next279.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6901,9 +6343,7 @@ function radionumber(){
     };
 
     Next280.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6923,9 +6363,7 @@ function radionumber(){
     };
 
     Next281.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_01]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6946,9 +6384,7 @@ function radionumber(){
     };
 
     Next282.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_02]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6969,9 +6405,7 @@ function radionumber(){
     };
 
     Next283.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_03]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -6992,9 +6426,7 @@ function radionumber(){
     };
 
     Next284.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_04]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7015,9 +6447,7 @@ function radionumber(){
     };
 
     Next285.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_05]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7038,9 +6468,7 @@ function radionumber(){
     };
 
     Next286.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_06]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7061,9 +6489,7 @@ function radionumber(){
     };
 
     Next287.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_07]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7084,9 +6510,7 @@ function radionumber(){
     };
 
     Next288.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_08]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7107,9 +6531,7 @@ function radionumber(){
     };
 
     Next289.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_09]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7131,9 +6553,7 @@ function radionumber(){
 
 
     Next290.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_10]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7155,9 +6575,7 @@ function radionumber(){
 
 
     Next291.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_11]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7179,9 +6597,7 @@ function radionumber(){
 
 
     Next292.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_12]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7203,9 +6619,7 @@ function radionumber(){
 
 
     Next293.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_13]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7226,9 +6640,7 @@ function radionumber(){
     };
 
     Next294.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_14]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7249,9 +6661,7 @@ function radionumber(){
     };
 
     Next295.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Task_T_15]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7272,9 +6682,7 @@ function radionumber(){
     };
 
     Next296.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7295,9 +6703,7 @@ function radionumber(){
     };
 
     Next297.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7317,9 +6723,7 @@ function radionumber(){
     };
 
     Next298.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7339,9 +6743,7 @@ function radionumber(){
     };
 
     Next299.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7361,9 +6763,7 @@ function radionumber(){
     };
 
     Next300.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7383,9 +6783,7 @@ function radionumber(){
     };
 
     Next301.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7405,9 +6803,7 @@ function radionumber(){
     };
 
     Next302.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7427,9 +6823,7 @@ function radionumber(){
     };
 
     Next303.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7449,9 +6843,7 @@ function radionumber(){
     };
 
     Next304.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7471,9 +6863,7 @@ function radionumber(){
     };
 
     Next305.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7493,9 +6883,7 @@ function radionumber(){
     };
 
     Next306.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7515,9 +6903,7 @@ function radionumber(){
     };
 
     Next307.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7537,9 +6923,7 @@ function radionumber(){
     };
 
     Next308.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7559,9 +6943,7 @@ function radionumber(){
     };
 
     Next309.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7581,9 +6963,7 @@ function radionumber(){
     };
 
     Next310.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7603,9 +6983,7 @@ function radionumber(){
     };
 
     Next311.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7625,9 +7003,7 @@ function radionumber(){
     };
 
     Next312.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7647,9 +7023,7 @@ function radionumber(){
     };
 
     Next313.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7669,9 +7043,7 @@ function radionumber(){
     };
 
     Next314.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7691,9 +7063,7 @@ function radionumber(){
     };
 
     Next315.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7713,9 +7083,7 @@ function radionumber(){
     };
 
     Next316.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7735,9 +7103,7 @@ function radionumber(){
     };
 
     Next317.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7757,9 +7123,7 @@ function radionumber(){
     };
 
     Next318.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7780,9 +7144,7 @@ function radionumber(){
 
 
     Next319.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7802,9 +7164,7 @@ function radionumber(){
     };
 
     Next320.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7824,9 +7184,7 @@ function radionumber(){
     };
 
     Next321.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7846,9 +7204,7 @@ function radionumber(){
     };
 
     Next322.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7868,9 +7224,7 @@ function radionumber(){
     };
 
     Next323.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7890,9 +7244,7 @@ function radionumber(){
     };
 
     Next324.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7912,9 +7264,7 @@ function radionumber(){
     };
 
     Next325.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7934,9 +7284,7 @@ function radionumber(){
     };
 
     Next326.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7957,9 +7305,7 @@ function radionumber(){
 
 
     Next327.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -7979,9 +7325,7 @@ function radionumber(){
     };
 
     Next328.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8001,9 +7345,7 @@ function radionumber(){
     };
 
     Next329.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8024,9 +7366,7 @@ function radionumber(){
 
 
     Next330.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8046,9 +7386,7 @@ function radionumber(){
     };
 
     Next331.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8068,9 +7406,7 @@ function radionumber(){
     };
 
     Next332.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8090,9 +7426,7 @@ function radionumber(){
     };
 
     Next333.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8112,9 +7446,7 @@ function radionumber(){
     };
 
     Next334.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8134,9 +7466,7 @@ function radionumber(){
     };
 
     Next335.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8156,9 +7486,7 @@ function radionumber(){
     };
 
     Next336.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8178,9 +7506,7 @@ function radionumber(){
     };
 
     Next337.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8201,9 +7527,7 @@ function radionumber(){
 
 
     Next338.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8223,9 +7547,7 @@ function radionumber(){
     };
 
     Next339.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
@@ -8245,9 +7567,7 @@ function radionumber(){
     };
 
     Next340.onclick = function () {
-        var values = 0;
-        var values = radionumber();
-        if (values.length == 0) {
+        if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == 0) {
             window.alert("Please make a decision.");
             event.preventDefault();
         } else {
