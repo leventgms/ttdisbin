@@ -705,7 +705,7 @@ $(document).ready(function () {
         if (contentId === 'instructions_belief') {
             choiceareaContainer.style.height = '1950px';
         } else {
-            choiceareaContainer.style.height = '600px';
+            choiceareaContainer.style.height = '500px';
         }
     };
 
