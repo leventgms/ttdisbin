@@ -690,6 +690,16 @@ $(document).ready(function () {
 
     const choiceareaContainer = document.getElementById('choicearea-container');
 
+    
+function radionumber(){
+    var radio=document.querySelectorAll('input[type="radio"]:checked');
+    var values=[]
+    for(var i =0;i <radio.length;i++){
+    values.push(radio[i].value);
+    }
+    return values; 
+}   
+
     // Function to adjust the width based on the content being displayed
     function adjustChoiceAreaHeight(contentId) {
         if (contentId === 'instructions_belief') {
