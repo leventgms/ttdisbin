@@ -72,6 +72,14 @@ div.container{
    right:250px;
 }
 
+.screenshot_betrayal_up{
+   width: 350px;
+   height: 180px;
+   position: absolute;
+   bottom:-255px;
+   right:170px;
+}
+
 div.Option_B{
    background-color: white;
    color: #127;
