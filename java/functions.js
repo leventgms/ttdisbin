@@ -341,6 +341,7 @@ $(document).ready(function () {
     var Form338 = document.getElementById("Form338");
     var Form339 = document.getElementById("Form339");
     var Form340 = document.getElementById("Form340");
+    var Form341 = document.getElementById("Form341");
     var Completed = document.getElementById("finished");
     var Instructions_Belief = document.getElementById("instructions_belief");
     var Welcome = document.getElementById("welcome");
@@ -684,6 +685,7 @@ $(document).ready(function () {
     var Next338 = document.getElementById("Next338");
     var Next339 = document.getElementById("Next339");
     var Next340 = document.getElementById("Next340");
+    var Next341 = document.getElementById("Next341");
     var Next_Belief = document.getElementById("Next_belief");
     var Submit1 = document.getElementById("Submit1");
     var storedform = JSON.parse(localStorage.getItem("shuffledForms"));
@@ -7586,6 +7588,26 @@ $(document).ready(function () {
         }
     };
 
+    Next341.onclick = function () {
+        if ($("input[type=radio][name=Task_P]:checked").val() == undefined) {
+            window.alert("Please make a decision.");
+            event.preventDefault();
+        } else {
+            Form341.style.left = "-1500px";
+            var currentFormIndex = storedform.indexOf("Form341");
+            if (currentFormIndex == 340) {
+                Completed.style.left = "0px";
+                progress.style.width = "146.66px";
+            } else {
+                var nextformId = storedform[currentFormIndex + 1];
+                var nextform = document.getElementById(nextformId);
+                nextform.style.left = "0px";
+            }
+            progress.style.width = "146.66px";
+            localStorage.setItem('Task_P',$("input[type=radio][name=Task_P]:checked").val());
+        }
+    };
+
 
     Submit1.onclick = function () {
         progress.style.width = "1100px";
@@ -7929,7 +7951,8 @@ $(document).ready(function () {
             Task_T_12: localStorage.getItem('Task_T_12'),
             Task_T_13: localStorage.getItem('Task_T_13'),
             Task_T_14: localStorage.getItem('Task_T_14'),
-            Task_T_15: localStorage.getItem('Task_T_15')
+            Task_T_15: localStorage.getItem('Task_T_15'),
+            Task_P: localStorage.getItem('Task_P'),
         });
     };
 
