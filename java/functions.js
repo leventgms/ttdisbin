@@ -712,7 +712,7 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById("Form265");
+        var nextform = document.getElementById("Form267");
         window.alert(nextformId);
         window.alert(nextform);
         nextform.style.left = "0px";
