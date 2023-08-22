@@ -714,7 +714,7 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById("Form252");
+        var nextform = document.getElementById("Form268");
         nextform.style.left = "0px";
         adjustChoiceAreaHeight(nextformId);
 
