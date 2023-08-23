@@ -172,6 +172,15 @@ div.Option_B_betrayal{
    transition: 0.5s;
 }
 
+#instructions_risk{
+   width: 1070px;
+   height: 1750px;
+   top: 65px;
+   left: 80px;
+   position: absolute;
+   transition: 0.5s;
+}
+
 
 #Next_belief{
     width: 110px;
@@ -218,6 +227,21 @@ div.Option_B_betrayal{
    position:absolute;
    left:900px; 
    bottom:100px;
+}
+
+#Next_Risk{
+   width: 110px;
+   height: 35px;
+   margin: 0 10px;
+   background: linear-gradient(to right, #ff105f, #ffad06);
+   border-radius: 30px;
+   border: 0;
+   outline: none;
+   color:#fff;
+   cursor: pointer;
+   position:absolute;
+   left:900px; 
+   bottom: -70px;
 }
 
 #Submit1{
@@ -1157,6 +1181,10 @@ form button{
  }
 
  #instructions_ineq{
+   left: 1500px;
+ }
+
+ #instructions_risk{
    left: 1500px;
  }
 
