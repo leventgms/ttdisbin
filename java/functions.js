@@ -342,9 +342,12 @@ $(document).ready(function () {
     var Form339 = document.getElementById("Form339");
     var Form340 = document.getElementById("Form340");
     var Form341 = document.getElementById("Form341");
+
     var Completed = document.getElementById("finished");
     var Instructions_Belief = document.getElementById("instructions_belief");
     var Welcome = document.getElementById("welcome");
+    var Instructions_Util = document.getElementById("instructions_util");
+    
     var Next1 = document.getElementById("Next1");
     var Next2 = document.getElementById("Next2");
     var Next3 = document.getElementById("Next3");
@@ -686,6 +689,8 @@ $(document).ready(function () {
     var Next339 = document.getElementById("Next339");
     var Next340 = document.getElementById("Next340");
     var Next341 = document.getElementById("Next341");
+
+    var Next_Util = document.getElementById("Next_Util");
     var Next_Belief = document.getElementById("Next_belief");
     var Submit1 = document.getElementById("Submit1");
     var storedform = JSON.parse(localStorage.getItem("shuffledForms"));
@@ -704,9 +709,11 @@ $(document).ready(function () {
 
     // Function to adjust the width based on the content being displayed
     function adjustChoiceAreaHeight(contentId) {
-        if (contentId === 'instructions_belief') {
+        if (contentId === 'instructions_belief' ) {
             choiceareaContainer.style.height = '1950px';
-        } else {
+        }else if (contentId === 'instructions_util'){
+            choiceareaContainer.style.height = '1550px';
+        }else {
             choiceareaContainer.style.height = '500px';
         }
     };
@@ -714,9 +721,9 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById("Form291");
+        var nextform = document.getElementById("instructions_util");
         nextform.style.left = "0px";
-        adjustChoiceAreaHeight(nextformId);
+        adjustChoiceAreaHeight("instructions_util");
 
     };
 
@@ -728,6 +735,16 @@ $(document).ready(function () {
         nextform.style.left = "0px";
         adjustChoiceAreaHeight(nextformId);
     };
+
+    Next_Util.onclick = function () {
+        Instructions_Util.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("instructions_util")
+        var nextformId = storedform[currentFormIndex + 1];
+        var nextform = document.getElementById(nextformId);
+        nextform.style.left = "0px";
+        adjustChoiceAreaHeight(nextformId);
+    };
+
 
     Next1.onclick = function () {
         if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == undefined) {
