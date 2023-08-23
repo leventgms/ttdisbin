@@ -348,6 +348,8 @@ $(document).ready(function () {
     var Welcome = document.getElementById("welcome");
     var Instructions_Util = document.getElementById("instructions_util");
     var Instructions_Ineq = document.getElementById("instructions_ineq");    
+    var Instructions_Risk = document.getElementById("instructions_risk");    
+
     
     var Next1 = document.getElementById("Next1");
     var Next2 = document.getElementById("Next2");
@@ -691,7 +693,7 @@ $(document).ready(function () {
     var Next340 = document.getElementById("Next340");
     var Next341 = document.getElementById("Next341");
 
-
+    var Next_Risk = document.getElementById("Next_Risk");
     var Next_Ineq = document.getElementById("Next_Ineq");
     var Next_Util = document.getElementById("Next_Util");
     var Next_Belief = document.getElementById("Next_belief");
@@ -718,6 +720,8 @@ $(document).ready(function () {
             choiceareaContainer.style.height = '1550px';
         } else if (contentId === 'instructions_ineq'){
             choiceareaContainer.style.height = '1750px';
+        } else if (contentId === 'instructions_risk'){
+            choiceareaContainer.style.height = '1900px';
         } else {
             choiceareaContainer.style.height = '500px';
         }
@@ -726,9 +730,9 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById("Form324");
+        var nextform = document.getElementById("instructions_risk");
         nextform.style.left = "0px";
-        adjustChoiceAreaHeight("instructions_ineq");
+        adjustChoiceAreaHeight("instructions_risk");
 
     };
 
@@ -759,6 +763,14 @@ $(document).ready(function () {
         adjustChoiceAreaHeight(nextformId);
     };
 
+    Next_Risk.onclick = function () {
+        Instructions_Risk.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("instructions_risk")
+        var nextformId = storedform[currentFormIndex + 1];
+        var nextform = document.getElementById(nextformId);
+        nextform.style.left = "0px";
+        adjustChoiceAreaHeight(nextformId);
+    };
 
     Next1.onclick = function () {
         if ($("input[type=radio][name=Bel_elicit_30_1]:checked").val() == undefined) {
