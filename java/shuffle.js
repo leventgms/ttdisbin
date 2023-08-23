@@ -42,6 +42,8 @@ const instructions_belief=["instructions_belief"];
 const instructions_util=["instructions_util"];
 const instructions_ineq=["instructions_ineq"];
 const instructions_risk=["instructions_risk"];
+const instructions_betrayal=["instructions_betrayal"];
+
 
 function shuffle(array) {
     var currentIndex = array.length;
@@ -63,12 +65,14 @@ const shuffle_belief=shuffle(formId_belief);
 const shuffle_util = shuffle(formId_util);
 const shuffle_ineq = shuffle(formId_Ineq);
 const shuffle_risk = shuffle(formId_risk);
+const shuffle_betrayal = shuffle(formId_Betr);
 
 
 const shuffledForms_belief = [...instructions_belief,...shuffle_belief];
 const shuffledForms_util = [...instructions_util,...shuffle_util];
 const shuffledForms_ineq = [...instructions_ineq,...shuffle_ineq];
 const shuffledForms_risk = [...instructions_risk,...shuffle_risk];
+const shuffledForms_betr = [...instructions_betrayal,...shuffle_betrayal];
 
 
 
@@ -77,7 +81,7 @@ const shuffledForms = [...shuffledForms_trust,...shuffledForms_belief,...formId_
 for (const task of shuffledTasks) {
     switch (task) {
         case "betr":
-            shuffledForms.push(...shuffle(formId_Betr));
+            shuffledForms.push(...shuffledForms_betr);
             break;
         case "ineq":
             shuffledForms.push(...shuffledForms_ineq);
