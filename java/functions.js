@@ -692,7 +692,7 @@ $(document).ready(function () {
     var Next341 = document.getElementById("Next341");
 
 
-    var Next_Ineq = document.getElementById("Next_Util");
+    var Next_Ineq = document.getElementById("Next_Ineq");
     var Next_Util = document.getElementById("Next_Util");
     var Next_Belief = document.getElementById("Next_belief");
     var Submit1 = document.getElementById("Submit1");
