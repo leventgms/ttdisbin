@@ -425,7 +425,7 @@ $sql = "INSERT INTO ttdisbin (Bel_elicit_30_1, Bel_elicit_30_2,
                               Task_T_08, Task_T_09, Task_T_10, Task_T_11, Task_T_12, Task_T_13, Task_T_14, Task_T_15, Risk_01_1, Risk_01_2, Risk_01_3, Risk_01_4,	Risk_01_5,	Risk_01_6,	Risk_01_7,	Risk_01_8,	Risk_01_9,
                               Risk_01_10,	Risk_01_11,	Risk_01_12,	Risk_01_13,	Risk_01_14,	Risk_01_15, Risk_05_1, Risk_05_2, Risk_05_3, Risk_05_4,	Risk_05_5,	Risk_05_6,	Risk_05_7,	Risk_05_8,	Risk_05_9,
                               Risk_05_10,	Risk_05_11,	Risk_05_12,	Risk_05_13,	Risk_05_14,	Risk_05_15, Risk_03_1, Risk_03_2, Risk_03_3, Risk_03_4,	Risk_03_5,	Risk_03_6,	Risk_03_7,	Risk_03_8,	Risk_03_9,
-                              Risk_03_10,	Risk_03_11,	Risk_03_12,	Risk_03_13,	Risk_03_14,	Risk_03_15,Task_P)    
+                              Risk_03_10,	Risk_03_11,	Risk_03_12,	Risk_03_13,	Risk_03_14,	Risk_03_15, Task_P)    
         VALUES ($1,	$2,	$3, 	$4, 	$5, 	$6, 	$7, 	$8, 	$9, 	$10,    $11,    $12,    $13,	$14,	$15,    $16,    $17,    $18,    $19,    $20,    $21,    $22,    $23,    $24,
         $25,	$26,	$27,	$28,	$29,	$30,	$31,	$32,    $33,	$34,	$35,	$36,	$37,	$38,	$39,	$40,	$41,	$42,	$43,	$44,	$45,    $46,	$47,	$48,
         $49,	$50,	$51,	$52,	$53,	$54,	$55,	$56,	$57,    $58,	$59,	$60,    $61,	$62,	$63,	$64,	$65,	$66,	$67,	$68,	$69,	$70,	$71,	$72,
