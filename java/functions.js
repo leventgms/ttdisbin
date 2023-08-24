@@ -817,6 +817,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_1', $("input[type=radio][name=Bel_elicit_30_1]:checked").val());
@@ -837,6 +838,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_2', $("input[type=radio][name=Bel_elicit_30_2]:checked").val());
@@ -857,6 +859,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_3', $("input[type=radio][name=Bel_elicit_30_3]:checked").val());
@@ -877,6 +880,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_4', $("input[type=radio][name=Bel_elicit_30_4]:checked").val());
@@ -898,6 +902,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_5', $("input[type=radio][name=Bel_elicit_30_5]:checked").val());
@@ -919,6 +924,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_6', $("input[type=radio][name=Bel_elicit_30_6]:checked").val());
@@ -941,6 +947,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_7', $("input[type=radio][name=Bel_elicit_30_7]:checked").val());
@@ -962,6 +969,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_8', $("input[type=radio][name=Bel_elicit_30_8]:checked").val());
@@ -984,6 +992,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_9', $("input[type=radio][name=Bel_elicit_30_9]:checked").val());
@@ -1006,6 +1015,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_10', $("input[type=radio][name=Bel_elicit_30_10]:checked").val());
@@ -1028,6 +1038,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_11', $("input[type=radio][name=Bel_elicit_30_11]:checked").val());
@@ -1050,6 +1061,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_12', $("input[type=radio][name=Bel_elicit_30_12]:checked").val());
@@ -1072,6 +1084,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_13', $("input[type=radio][name=Bel_elicit_30_13]:checked").val());
@@ -1093,6 +1106,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_14', $("input[type=radio][name=Bel_elicit_30_14]:checked").val());
@@ -1114,6 +1128,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_30_15', $("input[type=radio][name=Bel_elicit_30_15]:checked").val());
@@ -1135,6 +1150,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_1', $("input[type=radio][name=Bel_elicit_32l_1]:checked").val());
@@ -1155,6 +1171,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_2', $("input[type=radio][name=Bel_elicit_32l_2]:checked").val());
@@ -1175,6 +1192,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_3', $("input[type=radio][name=Bel_elicit_32l_3]:checked").val());
@@ -1195,6 +1213,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_4', $("input[type=radio][name=Bel_elicit_32l_4]:checked").val());
@@ -1215,6 +1234,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_5', $("input[type=radio][name=Bel_elicit_32l_5]:checked").val());
@@ -1235,6 +1255,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_6', $("input[type=radio][name=Bel_elicit_32l_6]:checked").val());
@@ -1255,6 +1276,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_7', $("input[type=radio][name=Bel_elicit_32l_7]:checked").val());
@@ -1275,6 +1297,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_8', $("input[type=radio][name=Bel_elicit_32l_8]:checked").val());
@@ -1295,6 +1318,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_9', $("input[type=radio][name=Bel_elicit_32l_9]:checked").val());
@@ -1316,6 +1340,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_10', $("input[type=radio][name=Bel_elicit_32l_10]:checked").val());
@@ -1336,6 +1361,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_11', $("input[type=radio][name=Bel_elicit_32l_11]:checked").val());
@@ -1356,6 +1382,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_12', $("input[type=radio][name=Bel_elicit_32l_12]:checked").val());
@@ -1376,6 +1403,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_13', $("input[type=radio][name=Bel_elicit_32l_13]:checked").val());
@@ -1396,6 +1424,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_14', $("input[type=radio][name=Bel_elicit_32l_14]:checked").val());
@@ -1416,6 +1445,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32l_15', $("input[type=radio][name=Bel_elicit_32l_15]:checked").val());
@@ -1436,6 +1466,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_1', $("input[type=radio][name=Bel_elicit_32m_1]:checked").val());
@@ -1456,6 +1487,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_2', $("input[type=radio][name=Bel_elicit_32m_2]:checked").val());
@@ -1476,6 +1508,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_3', $("input[type=radio][name=Bel_elicit_32m_3]:checked").val());
@@ -1496,6 +1529,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_4', $("input[type=radio][name=Bel_elicit_32m_4]:checked").val());
@@ -1516,6 +1550,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_5', $("input[type=radio][name=Bel_elicit_32m_5]:checked").val());
@@ -1536,6 +1571,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_6', $("input[type=radio][name=Bel_elicit_32m_6]:checked").val());
@@ -1556,6 +1592,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_7', $("input[type=radio][name=Bel_elicit_32m_7]:checked").val());
@@ -1576,6 +1613,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_8', $("input[type=radio][name=Bel_elicit_32m_8]:checked").val());
@@ -1596,6 +1634,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_9', $("input[type=radio][name=Bel_elicit_32m_9]:checked").val());
@@ -1616,6 +1655,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_10', $("input[type=radio][name=Bel_elicit_32m_10]:checked").val());
@@ -1636,6 +1676,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_11', $("input[type=radio][name=Bel_elicit_32m_11]:checked").val());
@@ -1656,6 +1697,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_12', $("input[type=radio][name=Bel_elicit_32m_12]:checked").val());
@@ -1676,6 +1718,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_13', $("input[type=radio][name=Bel_elicit_32m_13]:checked").val());
@@ -1696,6 +1739,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_14', $("input[type=radio][name=Bel_elicit_32m_14]:checked").val());
@@ -1716,6 +1760,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_32m_15', $("input[type=radio][name=Bel_elicit_32m_15]:checked").val());
@@ -1736,6 +1781,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_1', $("input[type=radio][name=Bel_elicit_333l_1]:checked").val());
@@ -1756,6 +1802,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_2', $("input[type=radio][name=Bel_elicit_333l_2]:checked").val());
@@ -1777,6 +1824,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_3', $("input[type=radio][name=Bel_elicit_333l_3]:checked").val());
@@ -1797,6 +1845,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_4', $("input[type=radio][name=Bel_elicit_333l_4]:checked").val());
@@ -1817,6 +1866,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_5', $("input[type=radio][name=Bel_elicit_333l_5]:checked").val());
@@ -1837,6 +1887,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_6', $("input[type=radio][name=Bel_elicit_333l_6]:checked").val());
@@ -1857,6 +1908,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_7', $("input[type=radio][name=Bel_elicit_333l_7]:checked").val());
@@ -1877,6 +1929,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_8', $("input[type=radio][name=Bel_elicit_333l_8]:checked").val());
@@ -1897,6 +1950,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_9', $("input[type=radio][name=Bel_elicit_333l_9]:checked").val());
@@ -1917,6 +1971,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_10', $("input[type=radio][name=Bel_elicit_333l_10]:checked").val());
@@ -1937,6 +1992,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_11', $("input[type=radio][name=Bel_elicit_333l_11]:checked").val());
@@ -1957,6 +2013,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_12', $("input[type=radio][name=Bel_elicit_333l_12]:checked").val());
@@ -1977,6 +2034,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_13', $("input[type=radio][name=Bel_elicit_333l_13]:checked").val());
@@ -1997,6 +2055,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_14', $("input[type=radio][name=Bel_elicit_333l_14]:checked").val());
@@ -2017,6 +2076,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333l_15', $("input[type=radio][name=Bel_elicit_333l_15]:checked").val());
@@ -2037,6 +2097,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_1', $("input[type=radio][name=Bel_elicit_333m_1]:checked").val());
@@ -2057,6 +2118,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_2', $("input[type=radio][name=Bel_elicit_333m_2]:checked").val());
@@ -2077,6 +2139,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_3', $("input[type=radio][name=Bel_elicit_333m_3]:checked").val());
@@ -2097,6 +2160,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_4', $("input[type=radio][name=Bel_elicit_333m_4]:checked").val());
@@ -2117,6 +2181,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_5', $("input[type=radio][name=Bel_elicit_333m_5]:checked").val());
@@ -2137,6 +2202,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_6', $("input[type=radio][name=Bel_elicit_333m_6]:checked").val());
@@ -2157,6 +2223,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_7', $("input[type=radio][name=Bel_elicit_333m_7]:checked").val());
@@ -2177,6 +2244,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_8', $("input[type=radio][name=Bel_elicit_333m_8]:checked").val());
@@ -2197,6 +2265,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_9', $("input[type=radio][name=Bel_elicit_333m_9]:checked").val());
@@ -2217,6 +2286,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_10', $("input[type=radio][name=Bel_elicit_333m_10]:checked").val());
@@ -2237,6 +2307,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_11', $("input[type=radio][name=Bel_elicit_333m_11]:checked").val());
@@ -2257,6 +2328,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_12', $("input[type=radio][name=Bel_elicit_333m_12]:checked").val());
@@ -2278,6 +2350,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_13', $("input[type=radio][name=Bel_elicit_333m_13]:checked").val());
@@ -2298,6 +2371,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_14', $("input[type=radio][name=Bel_elicit_333m_14]:checked").val());
@@ -2318,6 +2392,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333m_15', $("input[type=radio][name=Bel_elicit_333m_15]:checked").val());
@@ -2338,6 +2413,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_1', $("input[type=radio][name=Bel_elicit_3_3l_1]:checked").val());
@@ -2358,6 +2434,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_2', $("input[type=radio][name=Bel_elicit_3_3l_2]:checked").val());
@@ -2378,6 +2455,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_3', $("input[type=radio][name=Bel_elicit_3_3l_3]:checked").val());
@@ -2398,6 +2476,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_4', $("input[type=radio][name=Bel_elicit_3_3l_4]:checked").val());
@@ -2419,6 +2498,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_5', $("input[type=radio][name=Bel_elicit_3_3l_5]:checked").val());
@@ -2439,6 +2519,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_6', $("input[type=radio][name=Bel_elicit_3_3l_6]:checked").val());
@@ -2459,6 +2540,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_7', $("input[type=radio][name=Bel_elicit_3_3l_7]:checked").val());
@@ -2479,6 +2561,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_8', $("input[type=radio][name=Bel_elicit_3_3l_8]:checked").val());
@@ -2499,6 +2582,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_9', $("input[type=radio][name=Bel_elicit_3_3l_9]:checked").val());
@@ -2519,6 +2603,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_10', $("input[type=radio][name=Bel_elicit_3_3l_10]:checked").val());
@@ -2539,6 +2624,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_11', $("input[type=radio][name=Bel_elicit_3_3l_11]:checked").val());
@@ -2559,6 +2645,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_12', $("input[type=radio][name=Bel_elicit_3_3l_12]:checked").val());
@@ -2579,6 +2666,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_13', $("input[type=radio][name=Bel_elicit_3_3l_13]:checked").val());
@@ -2599,6 +2687,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_14', $("input[type=radio][name=Bel_elicit_3_3l_14]:checked").val());
@@ -2619,6 +2708,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3l_15', $("input[type=radio][name=Bel_elicit_3_3l_15]:checked").val());
@@ -2639,6 +2729,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_1', $("input[type=radio][name=Bel_elicit_3_3m_1]:checked").val());
@@ -2659,6 +2750,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_2', $("input[type=radio][name=Bel_elicit_3_3m_2]:checked").val());
@@ -2679,6 +2771,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_3', $("input[type=radio][name=Bel_elicit_3_3m_3]:checked").val());
@@ -2699,6 +2792,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_4', $("input[type=radio][name=Bel_elicit_3_3m_4]:checked").val());
@@ -2719,6 +2813,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_5', $("input[type=radio][name=Bel_elicit_3_3m_5]:checked").val());
@@ -2739,6 +2834,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_6', $("input[type=radio][name=Bel_elicit_3_3m_6]:checked").val());
@@ -2759,6 +2855,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_7', $("input[type=radio][name=Bel_elicit_3_3m_7]:checked").val());
@@ -2779,6 +2876,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_8', $("input[type=radio][name=Bel_elicit_3_3m_8]:checked").val());
@@ -2799,6 +2897,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_9', $("input[type=radio][name=Bel_elicit_3_3m_9]:checked").val());
@@ -2819,6 +2918,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_10', $("input[type=radio][name=Bel_elicit_3_3m_10]:checked").val());
@@ -2839,6 +2939,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_11', $("input[type=radio][name=Bel_elicit_3_3m_11]:checked").val());
@@ -2860,6 +2961,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_12', $("input[type=radio][name=Bel_elicit_3_3m_12]:checked").val());
@@ -2880,6 +2982,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_13', $("input[type=radio][name=Bel_elicit_3_3m_13]:checked").val());
@@ -2900,6 +3003,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_14', $("input[type=radio][name=Bel_elicit_3_3m_14]:checked").val());
@@ -2920,6 +3024,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_3_3m_15', $("input[type=radio][name=Bel_elicit_3_3m_15]:checked").val());
@@ -2940,6 +3045,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_1', $("input[type=radio][name=Bel_elicit_23l_1]:checked").val());
@@ -2960,6 +3066,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_2', $("input[type=radio][name=Bel_elicit_23l_2]:checked").val());
@@ -2980,6 +3087,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_3', $("input[type=radio][name=Bel_elicit_23l_3]:checked").val());
@@ -3001,6 +3109,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_4', $("input[type=radio][name=Bel_elicit_23l_4]:checked").val());
@@ -3021,6 +3130,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_5', $("input[type=radio][name=Bel_elicit_23l_5]:checked").val());
@@ -3041,6 +3151,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_6', $("input[type=radio][name=Bel_elicit_23l_6]:checked").val());
@@ -3062,6 +3173,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_7', $("input[type=radio][name=Bel_elicit_23l_7]:checked").val());
@@ -3082,6 +3194,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_8', $("input[type=radio][name=Bel_elicit_23l_8]:checked").val());
@@ -3102,6 +3215,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_9', $("input[type=radio][name=Bel_elicit_23l_9]:checked").val());
@@ -3122,6 +3236,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_10', $("input[type=radio][name=Bel_elicit_23l_10]:checked").val());
@@ -3142,6 +3257,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_11', $("input[type=radio][name=Bel_elicit_23l_11]:checked").val());
@@ -3162,6 +3278,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_12', $("input[type=radio][name=Bel_elicit_23l_12]:checked").val());
@@ -3182,6 +3299,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_13', $("input[type=radio][name=Bel_elicit_23l_13]:checked").val());
@@ -3202,6 +3320,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_14', $("input[type=radio][name=Bel_elicit_23l_14]:checked").val());
@@ -3222,6 +3341,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23l_15', $("input[type=radio][name=Bel_elicit_23l_15]:checked").val());
@@ -3242,6 +3362,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_1', $("input[type=radio][name=Bel_elicit_23m_1]:checked").val());
@@ -3262,6 +3383,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_2', $("input[type=radio][name=Bel_elicit_23m_2]:checked").val());
@@ -3282,6 +3404,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_3', $("input[type=radio][name=Bel_elicit_23m_3]:checked").val());
@@ -3302,6 +3425,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_4', $("input[type=radio][name=Bel_elicit_23m_4]:checked").val());
@@ -3322,6 +3446,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_5', $("input[type=radio][name=Bel_elicit_23m_5]:checked").val());
@@ -3342,6 +3467,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_6', $("input[type=radio][name=Bel_elicit_23m_6]:checked").val());
@@ -3362,6 +3488,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_7', $("input[type=radio][name=Bel_elicit_23m_7]:checked").val());
@@ -3382,6 +3509,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_8', $("input[type=radio][name=Bel_elicit_23m_8]:checked").val());
@@ -3402,6 +3530,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_9', $("input[type=radio][name=Bel_elicit_23m_9]:checked").val());
@@ -3422,6 +3551,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_10', $("input[type=radio][name=Bel_elicit_23m_10]:checked").val());
@@ -3442,6 +3572,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_11', $("input[type=radio][name=Bel_elicit_23m_11]:checked").val());
@@ -3462,6 +3593,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_12', $("input[type=radio][name=Bel_elicit_23m_12]:checked").val());
@@ -3482,6 +3614,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_13', $("input[type=radio][name=Bel_elicit_23m_13]:checked").val());
@@ -3502,6 +3635,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_14', $("input[type=radio][name=Bel_elicit_23m_14]:checked").val());
@@ -3522,6 +3656,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_23m_15', $("input[type=radio][name=Bel_elicit_23m_15]:checked").val());
@@ -3542,6 +3677,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_1', $("input[type=radio][name=Bel_elicit_03_1]:checked").val());
@@ -3562,6 +3698,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_2', $("input[type=radio][name=Bel_elicit_03_2]:checked").val());
@@ -3582,6 +3719,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_3', $("input[type=radio][name=Bel_elicit_03_3]:checked").val());
@@ -3602,6 +3740,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_4', $("input[type=radio][name=Bel_elicit_03_4]:checked").val());
@@ -3622,6 +3761,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_5', $("input[type=radio][name=Bel_elicit_03_5]:checked").val());
@@ -3642,6 +3782,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_6', $("input[type=radio][name=Bel_elicit_03_6]:checked").val());
@@ -3662,6 +3803,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_7', $("input[type=radio][name=Bel_elicit_03_7]:checked").val());
@@ -3682,6 +3824,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_8', $("input[type=radio][name=Bel_elicit_03_8]:checked").val());
@@ -3702,6 +3845,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_9', $("input[type=radio][name=Bel_elicit_03_9]:checked").val());
@@ -3722,6 +3866,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_10', $("input[type=radio][name=Bel_elicit_03_10]:checked").val());
@@ -3742,6 +3887,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_11', $("input[type=radio][name=Bel_elicit_03_11]:checked").val());
@@ -3762,6 +3908,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_12', $("input[type=radio][name=Bel_elicit_03_12]:checked").val());
@@ -3782,6 +3929,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_13', $("input[type=radio][name=Bel_elicit_03_13]:checked").val());
@@ -3802,6 +3950,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_14', $("input[type=radio][name=Bel_elicit_03_14]:checked").val());
@@ -3822,6 +3971,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_03_15', $("input[type=radio][name=Bel_elicit_03_15]:checked").val());
@@ -3842,6 +3992,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_1', $("input[type=radio][name=Bel_elicit_333_l_1]:checked").val());
@@ -3862,6 +4013,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_2', $("input[type=radio][name=Bel_elicit_333_l_2]:checked").val());
@@ -3882,6 +4034,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_3', $("input[type=radio][name=Bel_elicit_333_l_3]:checked").val());
@@ -3902,6 +4055,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_4', $("input[type=radio][name=Bel_elicit_333_l_4]:checked").val());
@@ -3922,6 +4076,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_5', $("input[type=radio][name=Bel_elicit_333_l_5]:checked").val());
@@ -3942,6 +4097,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_6', $("input[type=radio][name=Bel_elicit_333_l_6]:checked").val());
@@ -3962,6 +4118,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_7', $("input[type=radio][name=Bel_elicit_333_l_7]:checked").val());
@@ -3982,6 +4139,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_8', $("input[type=radio][name=Bel_elicit_333_l_8]:checked").val());
@@ -4002,6 +4160,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_9', $("input[type=radio][name=Bel_elicit_333_l_9]:checked").val());
@@ -4022,6 +4181,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_10', $("input[type=radio][name=Bel_elicit_333_l_10]:checked").val());
@@ -4042,6 +4202,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_11', $("input[type=radio][name=Bel_elicit_333_l_11]:checked").val());
@@ -4062,6 +4223,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_12', $("input[type=radio][name=Bel_elicit_333_l_12]:checked").val());
@@ -4082,6 +4244,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_13', $("input[type=radio][name=Bel_elicit_333_l_13]:checked").val());
@@ -4102,6 +4265,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_14', $("input[type=radio][name=Bel_elicit_333_l_14]:checked").val());
@@ -4122,6 +4286,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_l_15', $("input[type=radio][name=Bel_elicit_333_l_15]:checked").val());
@@ -4142,6 +4307,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_1', $("input[type=radio][name=Bel_elicit_333_m_1]:checked").val());
@@ -4162,6 +4328,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_2', $("input[type=radio][name=Bel_elicit_333_m_2]:checked").val());
@@ -4182,6 +4349,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_3', $("input[type=radio][name=Bel_elicit_333_m_3]:checked").val());
@@ -4202,6 +4370,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_4', $("input[type=radio][name=Bel_elicit_333_m_4]:checked").val());
@@ -4222,6 +4391,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_5', $("input[type=radio][name=Bel_elicit_333_m_5]:checked").val());
@@ -4242,6 +4412,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_6', $("input[type=radio][name=Bel_elicit_333_m_6]:checked").val());
@@ -4262,6 +4433,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_7', $("input[type=radio][name=Bel_elicit_333_m_7]:checked").val());
@@ -4282,6 +4454,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_8', $("input[type=radio][name=Bel_elicit_333_m_8]:checked").val());
@@ -4302,6 +4475,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_9', $("input[type=radio][name=Bel_elicit_333_m_9]:checked").val());
@@ -4322,6 +4496,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_10', $("input[type=radio][name=Bel_elicit_333_m_10]:checked").val());
@@ -4342,6 +4517,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_11', $("input[type=radio][name=Bel_elicit_333_m_11]:checked").val());
@@ -4362,6 +4538,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_12', $("input[type=radio][name=Bel_elicit_333_m_12]:checked").val());
@@ -4382,6 +4559,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_13', $("input[type=radio][name=Bel_elicit_333_m_13]:checked").val());
@@ -4402,6 +4580,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_14', $("input[type=radio][name=Bel_elicit_333_m_14]:checked").val());
@@ -4422,6 +4601,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Bel_elicit_333_m_15', $("input[type=radio][name=Bel_elicit_333_m_15]:checked").val());
@@ -4442,6 +4622,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_1', $("input[type=radio][name=Util_20_0_1]:checked").val());
@@ -4462,6 +4643,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_2', $("input[type=radio][name=Util_20_0_2]:checked").val());
@@ -4482,6 +4664,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_3', $("input[type=radio][name=Util_20_0_3]:checked").val());
@@ -4502,6 +4685,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_4', $("input[type=radio][name=Util_20_0_4]:checked").val());
@@ -4522,6 +4706,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_5', $("input[type=radio][name=Util_20_0_5]:checked").val());
@@ -4542,6 +4727,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_6', $("input[type=radio][name=Util_20_0_6]:checked").val());
@@ -4562,6 +4748,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_7', $("input[type=radio][name=Util_20_0_7]:checked").val());
@@ -4582,6 +4769,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_8', $("input[type=radio][name=Util_20_0_8]:checked").val());
@@ -4602,6 +4790,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_9', $("input[type=radio][name=Util_20_0_9]:checked").val());
@@ -4622,6 +4811,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_10', $("input[type=radio][name=Util_20_0_10]:checked").val());
@@ -4642,6 +4832,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_11', $("input[type=radio][name=Util_20_0_11]:checked").val());
@@ -4662,6 +4853,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_12', $("input[type=radio][name=Util_20_0_12]:checked").val());
@@ -4682,6 +4874,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_13', $("input[type=radio][name=Util_20_0_13]:checked").val());
@@ -4702,6 +4895,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_14', $("input[type=radio][name=Util_20_0_14]:checked").val());
@@ -4722,6 +4916,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_15', $("input[type=radio][name=Util_20_0_15]:checked").val());
@@ -4742,6 +4937,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_16', $("input[type=radio][name=Util_20_0_16]:checked").val());
@@ -4762,6 +4958,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_17', $("input[type=radio][name=Util_20_0_17]:checked").val());
@@ -4782,6 +4979,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_18', $("input[type=radio][name=Util_20_0_18]:checked").val());
@@ -4802,6 +5000,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_19', $("input[type=radio][name=Util_20_0_19]:checked").val());
@@ -4822,6 +5021,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_20', $("input[type=radio][name=Util_20_0_20]:checked").val());
@@ -4842,6 +5042,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_0_21', $("input[type=radio][name=Util_20_0_21]:checked").val());
@@ -4862,6 +5063,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_1', $("input[type=radio][name=Util_10_0_1]:checked").val());
@@ -4882,6 +5084,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_2', $("input[type=radio][name=Util_10_0_2]:checked").val());
@@ -4902,6 +5105,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_3', $("input[type=radio][name=Util_10_0_3]:checked").val());
@@ -4922,6 +5126,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_4', $("input[type=radio][name=Util_10_0_4]:checked").val());
@@ -4942,6 +5147,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_5', $("input[type=radio][name=Util_10_0_5]:checked").val());
@@ -4962,6 +5168,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_6', $("input[type=radio][name=Util_10_0_6]:checked").val());
@@ -4983,6 +5190,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_7', $("input[type=radio][name=Util_10_0_7]:checked").val());
@@ -5003,6 +5211,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_8', $("input[type=radio][name=Util_10_0_8]:checked").val());
@@ -5023,6 +5232,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_9', $("input[type=radio][name=Util_10_0_9]:checked").val());
@@ -5043,6 +5253,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_10', $("input[type=radio][name=Util_10_0_10]:checked").val());
@@ -5063,6 +5274,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_10_0_11', $("input[type=radio][name=Util_10_0_11]:checked").val());
@@ -5084,6 +5296,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_1', $("input[type=radio][name=Util_15_5_1]:checked").val());
@@ -5104,6 +5317,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_2', $("input[type=radio][name=Util_15_5_2]:checked").val());
@@ -5124,6 +5338,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_3', $("input[type=radio][name=Util_15_5_3]:checked").val());
@@ -5144,6 +5359,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_4', $("input[type=radio][name=Util_15_5_4]:checked").val());
@@ -5164,6 +5380,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_5', $("input[type=radio][name=Util_15_5_5]:checked").val());
@@ -5184,6 +5401,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_6', $("input[type=radio][name=Util_15_5_6]:checked").val());
@@ -5204,6 +5422,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_7', $("input[type=radio][name=Util_15_5_7]:checked").val());
@@ -5224,6 +5443,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_8', $("input[type=radio][name=Util_15_5_8]:checked").val());
@@ -5244,6 +5464,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_9', $("input[type=radio][name=Util_15_5_9]:checked").val());
@@ -5264,6 +5485,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_10', $("input[type=radio][name=Util_15_5_10]:checked").val());
@@ -5284,6 +5506,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_15_5_11', $("input[type=radio][name=Util_15_5_11]:checked").val());
@@ -5304,6 +5527,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_1', $("input[type=radio][name=Util_20_5_1]:checked").val());
@@ -5324,6 +5548,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_2', $("input[type=radio][name=Util_20_5_2]:checked").val());
@@ -5344,6 +5569,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_3', $("input[type=radio][name=Util_20_5_3]:checked").val());
@@ -5364,6 +5590,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_4', $("input[type=radio][name=Util_20_5_4]:checked").val());
@@ -5384,6 +5611,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_5', $("input[type=radio][name=Util_20_5_5]:checked").val());
@@ -5404,6 +5632,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_6', $("input[type=radio][name=Util_20_5_6]:checked").val());
@@ -5424,6 +5653,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_7', $("input[type=radio][name=Util_20_5_7]:checked").val());
@@ -5444,6 +5674,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_8', $("input[type=radio][name=Util_20_5_8]:checked").val());
@@ -5464,6 +5695,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_9', $("input[type=radio][name=Util_20_5_9]:checked").val());
@@ -5484,6 +5716,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_10', $("input[type=radio][name=Util_20_5_10]:checked").val());
@@ -5504,6 +5737,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_11', $("input[type=radio][name=Util_20_5_11]:checked").val());
@@ -5524,6 +5758,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_12', $("input[type=radio][name=Util_20_5_12]:checked").val());
@@ -5544,6 +5779,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_13', $("input[type=radio][name=Util_20_5_13]:checked").val());
@@ -5564,6 +5800,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_14', $("input[type=radio][name=Util_20_5_14]:checked").val());
@@ -5584,6 +5821,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_15', $("input[type=radio][name=Util_20_5_15]:checked").val());
@@ -5604,6 +5842,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_5_16', $("input[type=radio][name=Util_20_5_16]:checked").val());
@@ -5624,6 +5863,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_1', $("input[type=radio][name=Util_20_10_1]:checked").val());
@@ -5644,6 +5884,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_2', $("input[type=radio][name=Util_20_10_2]:checked").val());
@@ -5664,6 +5905,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_3', $("input[type=radio][name=Util_20_10_3]:checked").val());
@@ -5684,6 +5926,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_4', $("input[type=radio][name=Util_20_10_4]:checked").val());
@@ -5704,6 +5947,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_5', $("input[type=radio][name=Util_20_10_5]:checked").val());
@@ -5724,6 +5968,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_6', $("input[type=radio][name=Util_20_10_6]:checked").val());
@@ -5744,6 +5989,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_7', $("input[type=radio][name=Util_20_10_7]:checked").val());
@@ -5764,6 +6010,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_8', $("input[type=radio][name=Util_20_10_8]:checked").val());
@@ -5784,6 +6031,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_9', $("input[type=radio][name=Util_20_10_9]:checked").val());
@@ -5804,6 +6052,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_10', $("input[type=radio][name=Util_20_10_10]:checked").val());
@@ -5824,6 +6073,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Util_20_10_11', $("input[type=radio][name=Util_20_10_11]:checked").val());
@@ -5844,6 +6094,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_1', $("input[type=radio][name=Ineq_05_1]:checked").val());
@@ -5864,6 +6115,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_2', $("input[type=radio][name=Ineq_05_2]:checked").val());
@@ -5884,6 +6136,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_3', $("input[type=radio][name=Ineq_05_3]:checked").val());
@@ -5904,6 +6157,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_4', $("input[type=radio][name=Ineq_05_4]:checked").val());
@@ -5924,6 +6178,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_5', $("input[type=radio][name=Ineq_05_5]:checked").val());
@@ -5944,6 +6199,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_6', $("input[type=radio][name=Ineq_05_6]:checked").val());
@@ -5964,6 +6220,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_7', $("input[type=radio][name=Ineq_05_7]:checked").val());
@@ -5984,6 +6241,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_8', $("input[type=radio][name=Ineq_05_8]:checked").val());
@@ -6005,6 +6263,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_9', $("input[type=radio][name=Ineq_05_9]:checked").val());
@@ -6026,6 +6285,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_10', $("input[type=radio][name=Ineq_05_10]:checked").val());
@@ -6046,6 +6306,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_11', $("input[type=radio][name=Ineq_05_11]:checked").val());
@@ -6066,6 +6327,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_12', $("input[type=radio][name=Ineq_05_12]:checked").val());
@@ -6086,6 +6348,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_13', $("input[type=radio][name=Ineq_05_13]:checked").val());
@@ -6106,6 +6369,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_14', $("input[type=radio][name=Ineq_05_14]:checked").val());
@@ -6126,6 +6390,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Ineq_05_15', $("input[type=radio][name=Ineq_05_15]:checked").val());
@@ -6146,6 +6411,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_1', $("input[type=radio][name=Betr_05_1]:checked").val());
@@ -6166,6 +6432,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_2', $("input[type=radio][name=Betr_05_2]:checked").val());
@@ -6186,6 +6453,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_3', $("input[type=radio][name=Betr_05_3]:checked").val());
@@ -6206,6 +6474,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_4', $("input[type=radio][name=Betr_05_4]:checked").val());
@@ -6226,6 +6495,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_5', $("input[type=radio][name=Betr_05_5]:checked").val());
@@ -6246,6 +6516,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_6', $("input[type=radio][name=Betr_05_6]:checked").val());
@@ -6267,6 +6538,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_7', $("input[type=radio][name=Betr_05_7]:checked").val());
@@ -6287,6 +6559,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_8', $("input[type=radio][name=Betr_05_8]:checked").val());
@@ -6307,6 +6580,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_9', $("input[type=radio][name=Betr_05_9]:checked").val());
@@ -6328,6 +6602,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_10', $("input[type=radio][name=Betr_05_10]:checked").val());
@@ -6348,6 +6623,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_11', $("input[type=radio][name=Betr_05_11]:checked").val());
@@ -6368,6 +6644,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_12', $("input[type=radio][name=Betr_05_12]:checked").val());
@@ -6388,6 +6665,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_13', $("input[type=radio][name=Betr_05_13]:checked").val());
@@ -6408,6 +6686,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_14', $("input[type=radio][name=Betr_05_14]:checked").val());
@@ -6428,6 +6707,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Betr_05_15', $("input[type=radio][name=Betr_05_15]:checked").val());
@@ -6448,6 +6728,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_01', $("input[type=radio][name=Task_T_01]:checked").val());
@@ -6469,6 +6750,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_02', $("input[type=radio][name=Task_T_02]:checked").val());
@@ -6490,6 +6772,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_03', $("input[type=radio][name=Task_T_03]:checked").val());
@@ -6511,6 +6794,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_04', $("input[type=radio][name=Task_T_04]:checked").val());
@@ -6532,6 +6816,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_05', $("input[type=radio][name=Task_T_05]:checked").val());
@@ -6553,6 +6838,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_06', $("input[type=radio][name=Task_T_06]:checked").val());
@@ -6574,6 +6860,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_07', $("input[type=radio][name=Task_T_07]:checked").val());
@@ -6595,6 +6882,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_08', $("input[type=radio][name=Task_T_08]:checked").val());
@@ -6616,6 +6904,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_09', $("input[type=radio][name=Task_T_09]:checked").val());
@@ -6638,6 +6927,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_10', $("input[type=radio][name=Task_T_10]:checked").val());
@@ -6660,6 +6950,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_11', $("input[type=radio][name=Task_T_11]:checked").val());
@@ -6682,6 +6973,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_12', $("input[type=radio][name=Task_T_12]:checked").val());
@@ -6704,6 +6996,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_13', $("input[type=radio][name=Task_T_13]:checked").val());
@@ -6725,6 +7018,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_14', $("input[type=radio][name=Task_T_14]:checked").val());
@@ -6746,6 +7040,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_T_15', $("input[type=radio][name=Task_T_15]:checked").val());
@@ -6767,6 +7062,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_1', $("input[type=radio][name=Risk_05_1]:checked").val());
@@ -6788,6 +7084,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_2', $("input[type=radio][name=Risk_05_2]:checked").val());
@@ -6808,6 +7105,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_3', $("input[type=radio][name=Risk_05_3]:checked").val());
@@ -6828,6 +7126,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_4', $("input[type=radio][name=Risk_05_4]:checked").val());
@@ -6848,6 +7147,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_5', $("input[type=radio][name=Risk_05_5]:checked").val());
@@ -6868,6 +7168,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_6', $("input[type=radio][name=Risk_05_6]:checked").val());
@@ -6888,6 +7189,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_7', $("input[type=radio][name=Risk_05_7]:checked").val());
@@ -6908,6 +7210,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_8', $("input[type=radio][name=Risk_05_8]:checked").val());
@@ -6928,6 +7231,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_9', $("input[type=radio][name=Risk_05_9]:checked").val());
@@ -6948,6 +7252,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_10', $("input[type=radio][name=Risk_05_10]:checked").val());
@@ -6968,6 +7273,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_11', $("input[type=radio][name=Risk_05_11]:checked").val());
@@ -6988,6 +7294,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_12', $("input[type=radio][name=Risk_05_12]:checked").val());
@@ -7008,6 +7315,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_13', $("input[type=radio][name=Risk_05_13]:checked").val());
@@ -7028,6 +7336,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_14', $("input[type=radio][name=Risk_05_14]:checked").val());
@@ -7048,6 +7357,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_05_15', $("input[type=radio][name=Risk_05_15]:checked").val());
@@ -7068,6 +7378,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_1', $("input[type=radio][name=Risk_03_1]:checked").val());
@@ -7088,6 +7399,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_2', $("input[type=radio][name=Risk_03_2]:checked").val());
@@ -7108,6 +7420,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_3', $("input[type=radio][name=Risk_03_3]:checked").val());
@@ -7128,6 +7441,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_4', $("input[type=radio][name=Risk_03_4]:checked").val());
@@ -7148,6 +7462,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_5', $("input[type=radio][name=Risk_03_5]:checked").val());
@@ -7168,6 +7483,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_6', $("input[type=radio][name=Risk_03_6]:checked").val());
@@ -7188,6 +7504,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_7', $("input[type=radio][name=Risk_03_7]:checked").val());
@@ -7208,6 +7525,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_8', $("input[type=radio][name=Risk_03_8]:checked").val());
@@ -7229,6 +7547,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_9', $("input[type=radio][name=Risk_03_9]:checked").val());
@@ -7249,6 +7568,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_10', $("input[type=radio][name=Risk_03_10]:checked").val());
@@ -7269,6 +7589,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_11', $("input[type=radio][name=Risk_03_11]:checked").val());
@@ -7289,6 +7610,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_12', $("input[type=radio][name=Risk_03_12]:checked").val());
@@ -7309,6 +7631,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_13', $("input[type=radio][name=Risk_03_13]:checked").val());
@@ -7329,6 +7652,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_14', $("input[type=radio][name=Risk_03_14]:checked").val());
@@ -7349,6 +7673,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_03_15', $("input[type=radio][name=Risk_03_15]:checked").val());
@@ -7369,6 +7694,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_1', $("input[type=radio][name=Risk_01_1]:checked").val());
@@ -7390,6 +7716,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_2', $("input[type=radio][name=Risk_01_2]:checked").val());
@@ -7410,6 +7737,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_3', $("input[type=radio][name=Risk_01_3]:checked").val());
@@ -7430,6 +7758,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_4', $("input[type=radio][name=Risk_01_4]:checked").val());
@@ -7451,6 +7780,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_5', $("input[type=radio][name=Risk_01_5]:checked").val());
@@ -7471,6 +7801,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_6', $("input[type=radio][name=Risk_01_6]:checked").val());
@@ -7491,6 +7822,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_7', $("input[type=radio][name=Risk_01_7]:checked").val());
@@ -7511,6 +7843,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_8', $("input[type=radio][name=Risk_01_8]:checked").val());
@@ -7531,6 +7864,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_9', $("input[type=radio][name=Risk_01_9]:checked").val());
@@ -7551,6 +7885,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_10', $("input[type=radio][name=Risk_01_10]:checked").val());
@@ -7571,6 +7906,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_11', $("input[type=radio][name=Risk_01_11]:checked").val());
@@ -7591,6 +7927,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_12', $("input[type=radio][name=Risk_01_12]:checked").val());
@@ -7612,6 +7949,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_13', $("input[type=radio][name=Risk_01_13]:checked").val());
@@ -7632,6 +7970,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_14', $("input[type=radio][name=Risk_01_14]:checked").val());
@@ -7652,6 +7991,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Risk_01_15', $("input[type=radio][name=Risk_01_15]:checked").val());
@@ -7672,6 +8012,7 @@ $(document).ready(function () {
                 var nextformId = storedform[currentFormIndex + 1];
                 var nextform = document.getElementById(nextformId);
                 nextform.style.left = "0px";
+                adjustChoiceAreaHeight(nextformId);
             }
 
             localStorage.setItem('Task_P', $("input[type=radio][name=Task_P]:checked").val());
