@@ -720,6 +720,7 @@ $(document).ready(function () {
     function adjustChoiceAreaHeight(contentId) {
         if (contentId === 'instructions_belief' ) {
             choiceareaContainer.style.height = '1950px';
+            choiceareaContainer.style.width = '1200spx';
         } else if (contentId === 'instructions_util'){
             choiceareaContainer.style.height = '1550px';
         } else if (contentId === 'instructions_ineq'){
