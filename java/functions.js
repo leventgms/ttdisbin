@@ -722,7 +722,8 @@ $(document).ready(function () {
             choiceareaContainer.style.height = '2070px';
             choiceareaContainer.style.width = '1200px';
         } else if (contentId === 'instructions_util'){
-            choiceareaContainer.style.height = '1550px';
+            choiceareaContainer.style.height = '1650px';
+            choiceareaContainer.style.width = '1200px';
         } else if (contentId === 'instructions_ineq'){
             choiceareaContainer.style.height = '1750px';
         } else if (contentId === 'instructions_risk'){
