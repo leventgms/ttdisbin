@@ -148,10 +148,10 @@ div.Option_B_betrayal{
 #instructions_belief{
     width: 1070px;
     height: 1850px;
-    top: 65px;
-    left: 80px;
+    left: 300px;
     position: absolute;
     transition: 0.5s;
+    margin: 4%;
 }
 
 #instructions_util{
