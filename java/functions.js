@@ -726,7 +726,8 @@ $(document).ready(function () {
         } else if (contentId === 'instructions_ineq'){
             choiceareaContainer.style.height = '1750px';
         } else if (contentId === 'instructions_risk'){
-            choiceareaContainer.style.height = '1900px';
+            choiceareaContainer.style.height = '2000px';
+            choiceareaContainer.style.width = '1200px';
         } else if (contentId === 'instructions_betrayal'){
             choiceareaContainer.style.height = '1850px';
         } else if (contentId === 'instructions_trust'){
