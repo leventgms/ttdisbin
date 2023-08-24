@@ -738,9 +738,9 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById("instructions_trust");
+        var nextform = document.getElementById(nextformId);
         nextform.style.left = "0px";
-        adjustChoiceAreaHeight("instructions_trust");
+        adjustChoiceAreaHeight(nextform);
 
     };
 
