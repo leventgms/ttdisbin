@@ -43,6 +43,8 @@ const instructions_util=["instructions_util"];
 const instructions_ineq=["instructions_ineq"];
 const instructions_risk=["instructions_risk"];
 const instructions_betrayal=["instructions_betrayal"];
+const instructions_trust=["instructions_trust"];
+
 
 
 function shuffle(array) {
@@ -60,7 +62,7 @@ function shuffle(array) {
 
 
 const shuffledTasks= shuffle(tasks);
-const shuffledForms_trust = shuffle(formId_trust);
+const shuffle_trust = shuffle(formId_trust);
 const shuffle_belief=shuffle(formId_belief);
 const shuffle_util = shuffle(formId_util);
 const shuffle_ineq = shuffle(formId_Ineq);
@@ -73,6 +75,8 @@ const shuffledForms_util = [...instructions_util,...shuffle_util];
 const shuffledForms_ineq = [...instructions_ineq,...shuffle_ineq];
 const shuffledForms_risk = [...instructions_risk,...shuffle_risk];
 const shuffledForms_betr = [...instructions_betrayal,...shuffle_betrayal];
+const shuffledForms_trust = [...instructions_trust,...shuffle_trust];
+
 
 
 
