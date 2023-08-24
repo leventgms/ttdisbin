@@ -167,10 +167,10 @@ div.Option_B_betrayal{
 #instructions_util{
    width: 1070px;
    height: 1850px;
-   top: 65px;
    left: 80px;
    position: absolute;
    transition: 0.5s;
+   margin: 4%;
 }
 
 #instructions_ineq{
