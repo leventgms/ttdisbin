@@ -719,8 +719,8 @@ $(document).ready(function () {
     // Function to adjust the width based on the content being displayed
     function adjustChoiceAreaHeight(contentId) {
         if (contentId === 'instructions_belief' ) {
-            choiceareaContainer.style.height = '1950px';
-            choiceareaContainer.style.width = '1200spx';
+            choiceareaContainer.style.height = '1850px';
+            choiceareaContainer.style.width = '1200px';
         } else if (contentId === 'instructions_util'){
             choiceareaContainer.style.height = '1550px';
         } else if (contentId === 'instructions_ineq'){
