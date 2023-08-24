@@ -730,6 +730,7 @@ $(document).ready(function () {
             choiceareaContainer.style.width = '1200px';
         } else if (contentId === 'instructions_betrayal'){
             choiceareaContainer.style.height = '1850px';
+            choiceareaContainer.style.width = '1200px';
         } else if (contentId === 'instructions_trust'){
             choiceareaContainer.style.height = '1780px';
         } else {
