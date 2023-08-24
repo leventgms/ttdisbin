@@ -190,6 +190,15 @@ div.Option_B_betrayal{
    transition: 0.5s;
 }
 
+#instructions_trust{
+   width: 1000px;
+   height: 1750px;
+   left: 300px;
+   position: absolute;
+   transition: 0.5s;
+   margin: 4%;
+}
+
 
 
 #Next_belief{
@@ -267,6 +276,21 @@ div.Option_B_betrayal{
    position:absolute;
    left:900px; 
    bottom: -20px;
+}
+
+#Next_trust{
+   width: 110px;
+   height: 35px;
+   margin: 0 10px;
+   background: linear-gradient(to right, #ff105f, #ffad06);
+   border-radius: 30px;
+   border: 0;
+   outline: none;
+   color:#fff;
+   cursor: pointer;
+   position:absolute;
+   left:870px;
+   bottom:50px;
 }
 
 
@@ -1217,6 +1241,11 @@ form button{
  #instructions_betrayal{
    left: 1500px;
  }
+
+ #instructions_trust{
+   left: 1500px;
+ }
+
 
 
 
