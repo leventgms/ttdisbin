@@ -740,7 +740,7 @@ $(document).ready(function () {
         var nextformId = storedform[0];
         var nextform = document.getElementById(nextformId);
         nextform.style.left = "0px";
-        adjustChoiceAreaHeight(nextform);
+        adjustChoiceAreaHeight(nextformId);
 
     };
 
