@@ -17,7 +17,7 @@ div.container2{
     border: 2px solid;
     width:1100px;
     min-height: 500px;
-    max-height: 1900px;
+    max-height: 2800px;
     margin: 10% auto;
     border-radius:5px;
     position: relative;
@@ -222,8 +222,8 @@ div.Option_B_betrayal{
     color:#fff;
     cursor: pointer;
     position:absolute;
-    left:930px; 
-    bottom: 120px;
+    left:980px; 
+    bottom: -145px;
 }
 
 #Next_Util{
