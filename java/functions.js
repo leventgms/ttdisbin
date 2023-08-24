@@ -790,7 +790,7 @@ $(document).ready(function () {
     };
 
     Next_Trust.onclick = function () {
-        Instructions_Betrayal.style.left = "-1500px";
+        Instructions_Trust.style.left = "-1500px";
         var currentFormIndex = storedform.indexOf("instructions_trust")
         var nextformId = storedform[currentFormIndex + 1];
         var nextform = document.getElementById(nextformId);
