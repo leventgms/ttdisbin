@@ -98,6 +98,17 @@ div.Option_B{
    right:100px;
 }
 
+div.Option_B_3_7{
+   background-color: white;
+   color: #127;
+   padding: 0.1rem 0.75rem;
+   height: 200px;
+   position: absolute;
+   bottom:-430px;
+   right:50px;
+}
+
+
 div.Option_B_betrayal{
    background-color: white;
    color: #127;
