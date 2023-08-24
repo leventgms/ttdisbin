@@ -343,15 +343,7 @@ $(document).ready(function () {
     var Form340 = document.getElementById("Form340");
     var Form341 = document.getElementById("Form341");
 
-    var Completed = document.getElementById("finished");
-    var Instructions_Belief = document.getElementById("instructions_belief");
-    var Welcome = document.getElementById("welcome");
-    var Instructions_Util = document.getElementById("instructions_util");
-    var Instructions_Ineq = document.getElementById("instructions_ineq");    
-    var Instructions_Risk = document.getElementById("instructions_risk");    
-    var Instructions_Betrayal = document.getElementById("instructions_betrayal");    
-
-    
+  
     var Next1 = document.getElementById("Next1");
     var Next2 = document.getElementById("Next2");
     var Next3 = document.getElementById("Next3");
@@ -694,6 +686,16 @@ $(document).ready(function () {
     var Next340 = document.getElementById("Next340");
     var Next341 = document.getElementById("Next341");
 
+    var Completed = document.getElementById("finished");
+    var Instructions_Belief = document.getElementById("instructions_belief");
+    var Welcome = document.getElementById("welcome");
+    var Instructions_Util = document.getElementById("instructions_util");
+    var Instructions_Ineq = document.getElementById("instructions_ineq");    
+    var Instructions_Risk = document.getElementById("instructions_risk");    
+    var Instructions_Betrayal = document.getElementById("instructions_betrayal");    
+    var Instructions_Trust = document.getElementById("instructions_trust");    
+
+    var Next_Trust = document.getElementById("Next_trust");
     var Next_Betrayal = document.getElementById("Next_betrayal");
     var Next_Risk = document.getElementById("Next_Risk");
     var Next_Ineq = document.getElementById("Next_Ineq");
@@ -718,7 +720,7 @@ $(document).ready(function () {
     function adjustChoiceAreaHeight(contentId) {
         if (contentId === 'instructions_belief' ) {
             choiceareaContainer.style.height = '1950px';
-        }else if (contentId === 'instructions_util'){
+        } else if (contentId === 'instructions_util'){
             choiceareaContainer.style.height = '1550px';
         } else if (contentId === 'instructions_ineq'){
             choiceareaContainer.style.height = '1750px';
@@ -726,6 +728,8 @@ $(document).ready(function () {
             choiceareaContainer.style.height = '1900px';
         } else if (contentId === 'instructions_betrayal'){
             choiceareaContainer.style.height = '1850px';
+        } else if (contentId === 'instructions_trust'){
+            choiceareaContainer.style.height = '1780px';
         } else {
             choiceareaContainer.style.height = '500px';
         }
@@ -734,9 +738,9 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById("instructions_betrayal");
+        var nextform = document.getElementById("instructions_trust");
         nextform.style.left = "0px";
-        adjustChoiceAreaHeight("instructions_betrayal");
+        adjustChoiceAreaHeight("instructions_trust");
 
     };
 
@@ -779,6 +783,15 @@ $(document).ready(function () {
     Next_Betrayal.onclick = function () {
         Instructions_Betrayal.style.left = "-1500px";
         var currentFormIndex = storedform.indexOf("instructions_betrayal")
+        var nextformId = storedform[currentFormIndex + 1];
+        var nextform = document.getElementById(nextformId);
+        nextform.style.left = "0px";
+        adjustChoiceAreaHeight(nextformId);
+    };
+
+    Next_Trust.onclick = function () {
+        Instructions_Betrayal.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("instructions_trust")
         var nextformId = storedform[currentFormIndex + 1];
         var nextform = document.getElementById(nextformId);
         nextform.style.left = "0px";
