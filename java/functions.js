@@ -743,9 +743,9 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById(nextformId);
+        var nextform = document.getElementById("instructions_risk");
         nextform.style.left = "0px";
-        adjustChoiceAreaHeight(nextformId);
+        adjustChoiceAreaHeight("instructions_risk");
 
     };
 
