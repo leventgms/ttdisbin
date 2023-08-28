@@ -36,7 +36,7 @@ const formId_belief = ["Form1", "Form2", "Form3", "Form4", "Form5", "Form6", "Fo
     "Form161", "Form162", "Form163", "Form164", "Form165", "Form166", "Form167", "Form168", "Form169", "Form170", "Form171", "Form172", "Form173",
     "Form174", "Form175", "Form176", "Form177", "Form178", "Form179", "Form180"];
 
-const formId_strategy = ["Form341"]
+const formId_strategy = ["strategy_method","Form341"]
 
 const instructions_belief=["instructions_belief"];
 const instructions_util=["instructions_util"];
@@ -44,6 +44,7 @@ const instructions_ineq=["instructions_ineq"];
 const instructions_risk=["instructions_risk"];
 const instructions_betrayal=["instructions_betrayal"];
 const instructions_trust=["instructions_trust"];
+
 
 
 
