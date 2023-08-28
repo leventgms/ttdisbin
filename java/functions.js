@@ -689,6 +689,7 @@ $(document).ready(function () {
     var Completed = document.getElementById("finished");
     var Instructions_Belief = document.getElementById("instructions_belief");
     var Welcome = document.getElementById("welcome");
+    var Strategy_method = document.getElementById("strategy_method");
     var Instructions_Util = document.getElementById("instructions_util");
     var Instructions_Ineq = document.getElementById("instructions_ineq");    
     var Instructions_Risk = document.getElementById("instructions_risk");    
@@ -701,6 +702,7 @@ $(document).ready(function () {
     var Next_Ineq = document.getElementById("Next_Ineq");
     var Next_Util = document.getElementById("Next_Util");
     var Next_Belief = document.getElementById("Next_belief");
+    var Next_Srategy = document.getElementById("strategy");
     var Submit1 = document.getElementById("Submit1");
     var storedform = JSON.parse(localStorage.getItem("shuffledForms"));
 
@@ -733,6 +735,9 @@ $(document).ready(function () {
         } else if (contentId === 'instructions_betrayal'){
             choiceareaContainer.style.height = '1850px';
             choiceareaContainer.style.width = '1200px';
+        } else if (contentId === 'strategy_method'){
+            choiceareaContainer.style.height = '470px';
+            choiceareaContainer.style.width = '1000px';
         } else if (contentId === 'instructions_trust'){
             choiceareaContainer.style.height = '1780px';
         } else {
@@ -743,15 +748,24 @@ $(document).ready(function () {
     welcome.onclick = function () {
         Instructions.style.left = "-1500px";
         var nextformId = storedform[0];
-        var nextform = document.getElementById("instructions_risk");
+        var nextform = document.getElementById("strategy_method");
         nextform.style.left = "0px";
-        adjustChoiceAreaHeight("instructions_risk");
+        adjustChoiceAreaHeight("strategy_method");
 
     };
 
     Next_Belief.onclick = function () {
         Instructions_Belief.style.left = "-1500px";
         var currentFormIndex = storedform.indexOf("instructions_belief")
+        var nextformId = storedform[currentFormIndex + 1];
+        var nextform = document.getElementById(nextformId);
+        nextform.style.left = "0px";
+        adjustChoiceAreaHeight(nextformId);
+    };
+
+    Next_Strategy.onclick = function () {
+        Strategy_method.style.left = "-1500px";
+        var currentFormIndex = storedform.indexOf("strategy_method")
         var nextformId = storedform[currentFormIndex + 1];
         var nextform = document.getElementById(nextformId);
         nextform.style.left = "0px";
