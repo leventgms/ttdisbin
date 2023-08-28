@@ -742,6 +742,7 @@ $(document).ready(function () {
             choiceareaContainer.style.height = '1780px';
         } else {
             choiceareaContainer.style.height = '500px';
+            choiceareaContainer.style.width = '1100px';
         }
     };
 
