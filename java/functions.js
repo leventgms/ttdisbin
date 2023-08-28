@@ -702,7 +702,7 @@ $(document).ready(function () {
     var Next_Ineq = document.getElementById("Next_Ineq");
     var Next_Util = document.getElementById("Next_Util");
     var Next_Belief = document.getElementById("Next_belief");
-    var Next_Srategy = document.getElementById("strategy");
+    var Next_Strategy = document.getElementById("strategy");
     var Submit1 = document.getElementById("Submit1");
     var storedform = JSON.parse(localStorage.getItem("shuffledForms"));
 
