@@ -48,6 +48,14 @@ div.container{
    bottom:-270px;
    left:195px;
 }
+
+.screenshot_A_strategy{
+   width: 200px;
+   height: 150px;
+   position: absolute;
+   bottom:-220px;
+   left:195px;
+}
 .screenshot{
    width: 400px;
    height: 130px;
@@ -59,7 +67,7 @@ div.container{
    width: 200px;
    height: 150px;
    position: absolute;
-   bottom:-270px;
+   bottom:-220px;
    right:160px;
 }
 
