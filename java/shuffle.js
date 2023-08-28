@@ -81,7 +81,7 @@ const shuffledForms_trust = [...instructions_trust,...shuffle_trust];
 
 
 
-const shuffledForms = [...shuffledForms_trust,...shuffledForms_belief,...formId_strategy];
+const shuffledForms = [...shuffledForms_trust,...formId_strategy,...shuffledForms_belief];
 
 for (const task of shuffledTasks) {
     switch (task) {
